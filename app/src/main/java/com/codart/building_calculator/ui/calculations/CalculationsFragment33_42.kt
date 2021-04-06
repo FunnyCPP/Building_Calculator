@@ -53,6 +53,7 @@ class FragmentCalculations33_42 : Fragment() {
     private lateinit var imgBottomSave: ImageView
     private lateinit var imgBottomHome: ImageView
     private lateinit var imgBottomCopy: ImageView
+    private lateinit var img: ImageView
 
     private lateinit var txt1: TextView
     private lateinit var txt2: TextView
@@ -106,6 +107,7 @@ class FragmentCalculations33_42 : Fragment() {
         imgBottomSave=requireView().findViewById(R.id.imgBottomSave_calculations33)
         imgBottomHome=requireView().findViewById(R.id.imgBottomHome_calculations33)
         imgBottomCopy=requireView().findViewById(R.id.imgBottomCopy_calculations33)
+        img=requireView().findViewById(R.id.img_calculations33)
 
         txt1=requireView().findViewById(R.id.txt1_calculations33)
         txt2=requireView().findViewById(R.id.txt2_calculations33)
@@ -164,6 +166,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_1)
             setVisibilityGone(txt4,input4,spinner4)
             setVisibilityGone(txt5,input5,spinner5)
             setVisibilityGone(txt6,input6,spinner6)
@@ -338,6 +341,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_2)
             setVisibilityGone(txt4,input4,spinner4)
             setVisibilityGone(txt5,input5,spinner5)
             setVisibilityGone(txt6,input6,spinner6)
@@ -513,6 +517,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_3)
             setVisibilityGone(txt5,input5,spinner5)
             setVisibilityGone(txt6,input6,spinner6)
             setVisibilityGone(txt7,input7,spinner7)
@@ -729,6 +734,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_4)
             setVisibilityGone(txt5,input5,spinner5)
             setVisibilityGone(txt6,input6,spinner6)
             setVisibilityGone(txt7,input7,spinner7)
@@ -945,6 +951,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_5)
             setVisibilityGone(txt4,input4,spinner4)
             setVisibilityGone(txt5,input5,spinner5)
             setVisibilityGone(txt6,input6,spinner6)
@@ -1163,6 +1170,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_6)
             setVisibilityGone(txt5,input5,spinner5)
             setVisibilityGone(txt6,input6,spinner6)
             setVisibilityGone(txt7,input7,spinner7)
@@ -1380,6 +1388,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_7)
             setVisibilityGone(txt5,input5,spinner5)
             setVisibilityGone(txt6,input6,spinner6)
             setVisibilityGone(txt7,input7,spinner7)
@@ -1602,6 +1611,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_8)
             setVisibilityGone(txt6,input6,spinner6)
             setVisibilityGone(txt7,input7,spinner7)
             setText(txt1,requireContext().resources.getString(R.string.calculation40_text1))
@@ -1828,6 +1838,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_9)
             setVisibilityGone(txt7,input7,spinner7)
             setText(txt1,requireContext().resources.getString(R.string.calculation41_text1))
             setText(txt2,requireContext().resources.getString(R.string.calculation41_text2))
@@ -2061,6 +2072,7 @@ class FragmentCalculations33_42 : Fragment() {
             }
         }
         fun setView(){
+            img.setImageResource(R.drawable.ic_volumes_detail_10)
             setText(txt1,requireContext().resources.getString(R.string.calculation42_text1))
             setText(txt2,requireContext().resources.getString(R.string.calculation42_text2))
             setText(txt3,requireContext().resources.getString(R.string.calculation42_text3))

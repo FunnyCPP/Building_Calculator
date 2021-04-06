@@ -32,6 +32,7 @@ class CalculationsFragment16 : Fragment() {
     private lateinit var spinner4: Spinner
     private lateinit var spinner5: Spinner
     private lateinit var spinner7: Spinner
+    private lateinit var spinner8: Spinner
 
     private lateinit var input1: EditText
     private lateinit var input2: EditText
@@ -77,6 +78,7 @@ class CalculationsFragment16 : Fragment() {
         spinner4 =requireView().findViewById(R.id.spinner4_calculations16)
         spinner5 =requireView().findViewById(R.id.spinner5_calculations16)
         spinner7 =requireView().findViewById(R.id.spinner7_calculations16)
+        spinner8 =requireView().findViewById(R.id.spinner8_calculations16)
 
 
         input1 =requireView().findViewById(R.id.calculations16_input1)
@@ -240,7 +242,7 @@ class CalculationsFragment16 : Fragment() {
             0->{res=res4*p}
             1->{res=res5*p}
         }
-        result5.text = "${Round.round(res)} "
+        result5.text = "${Round.round(res)} ${spinner8.selectedItem}"
     }
     private fun getFieldInM(input: EditText, spinner: Spinner): Double
     {
@@ -269,8 +271,11 @@ class CalculationsFragment16 : Fragment() {
         spinner4.adapter=customDropDownAdapter
         spinner5.adapter=customDropDownAdapter
         array=resources.getStringArray(R.array.calculations16_array1)
-        val adapter= SpinnerAdapter(requireContext(), array)
+        var adapter= SpinnerAdapter(requireContext(), array)
         spinner7.adapter=adapter
+        array=resources.getStringArray(R.array.array_currencies)
+        adapter= SpinnerAdapter(requireContext(), array)
+        spinner8.adapter=adapter
 
 
     }

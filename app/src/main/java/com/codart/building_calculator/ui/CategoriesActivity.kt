@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import android.widget.LinearLayout
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.Navigation
@@ -17,20 +18,20 @@ class CategoriesActivity : AppCompatActivity() {
     lateinit var toolbar: androidx.appcompat.widget.Toolbar
     lateinit var navView: NavigationView
     lateinit var drawerLayout: DrawerLayout
-    lateinit var imgMain: ImageView
-    lateinit var imgMetals: ImageView
+    lateinit var imgMain: LinearLayout
+    lateinit var imgMetals: LinearLayout
     lateinit var imgHome: ImageView
-    lateinit var imgSquares: ImageView
-    lateinit var imgConverters: ImageView
+    lateinit var imgSquares: LinearLayout
+    lateinit var imgConverters: LinearLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_categories)
-        imgMain=findViewById(R.id.imgBottomMain)
-        imgMetals=findViewById(R.id.imgBottomMetals)
+        imgMain=findViewById(R.id.layout_main_categories)
+        imgMetals=findViewById(R.id.layout_metals_categories)
         imgHome=findViewById(R.id.imgBottomHome)
-        imgSquares=findViewById(R.id.imgBottomSquares_advice)
-        imgConverters=findViewById(R.id.imgBottomConverters)
+        imgSquares=findViewById(R.id.layout_squares_categories)
+        imgConverters=findViewById(R.id.layout_converters_categories)
         imgMain.setOnClickListener {
             val intent = Intent(this, CategoriesActivity::class.java)
             intent.putExtra("id",1)

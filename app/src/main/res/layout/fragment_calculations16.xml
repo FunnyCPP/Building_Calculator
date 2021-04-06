@@ -392,7 +392,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:visibility="gone"
-                    app:constraint_referenced_ids="txt_calculations43,spinner7_calculations16,calculations16_input7"
+                    app:constraint_referenced_ids="txt_calculations43,spinner7_calculations16,calculations16_input7,spinner8_calculations16"
                     tools:layout_editor_absoluteX="5dp"
                     tools:layout_editor_absoluteY="5dp" />
 
@@ -425,6 +425,18 @@
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/switch3_calculations16" />
+
+                <Spinner
+                    android:id="@+id/spinner8_calculations16"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/background_black"
+                    android:popupBackground="@drawable/background_black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/spinner7_calculations16"
+                    app:layout_constraintTop_toBottomOf="@+id/spinner7_calculations16" />
 
                 <TextView
                     android:id="@+id/txt_calculations43"

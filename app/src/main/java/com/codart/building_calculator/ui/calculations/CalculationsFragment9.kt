@@ -125,7 +125,7 @@ class CalculationsFragment9 : Fragment() {
         val m=input2.text.toString().toDouble()
         val p=input1.text.toString().toDouble()
 
-        val res1=d*e
+        val res1=d*e-s.toString().toDouble()
         val res2=getThicknessInMM()
 
         var res3=getNumberBricks(res1*1000*1000)
@@ -145,13 +145,13 @@ class CalculationsFragment9 : Fragment() {
         result6.text = "${Round.round(res6)} м3"
         result7.text = "${Round.round(res7)} кг"
         result8.text = "${Round.round(res8)} кг/см2"
-        result9.text = "${Round.round(res9)} ${spinner2.selectedItem}"
+        result9.text = "${Round.round(res9)} ${spinner2.selectedItem!!}"
 
 
     }
     private fun setSizeOfBrick(){
 
-        when(spinner1.selectedItemPosition){
+        when(spinner1.selectedItemPosition!!){
             0->{a=250;b=200;c=70}
             1->{a=390;b=190;c=188}
             2->{a=400;b=200;c=200}
@@ -166,11 +166,20 @@ class CalculationsFragment9 : Fragment() {
             11->{a=600;b=300;c=250}
             12->{a=600;b=400;c=250}
             13->{a=600;b=400;c=300}
+
+            14->{a=250;b=120;c=65}
+            15->{a=250;b=85;c=65}
+            16->{a=250;b=120;c=88}
+            17->{a=250;b=60;c=65}
+            18->{a=250;b=138;c=65}
+            19->{a=250;b=138;c=88}
+            20->{a=250;b=120;c=55}
+            21->{a=250;b=200;c=70}
         }
     }
     private fun getNumberBricks(s: Double): Double{
         val t=input3.text.toString().toDouble()
-        return (when(spinner4.selectedItemPosition){
+        return (when(spinner4.selectedItemPosition!!){
             0->s/(a+t)/(c+t)
             1->s/(b+t)/(c+t)
             2->s/(a+t)/(c+t)+s/(b+t)/(c+t)
@@ -180,7 +189,7 @@ class CalculationsFragment9 : Fragment() {
         })
     }
     private fun getThicknessInMM(): Double {
-        return when(spinner6.selectedItemPosition){
+        return when(spinner6.selectedItemPosition!!){
             0 -> b.toDouble()
             1 -> a.toDouble()
             2 -> a+b+getLiquorThicknessInMM()
@@ -190,7 +199,7 @@ class CalculationsFragment9 : Fragment() {
         }
     }
     private fun getFieldInM(input: EditText, spinner: Spinner): Double {
-        return when(spinner.selectedItemPosition){
+        return when(spinner.selectedItemPosition!!){
             0 -> input.text.toString().toDouble()
             1 -> input.text.toString().toDouble()/100
             2 -> input.text.toString().toDouble()/1000
@@ -202,7 +211,7 @@ class CalculationsFragment9 : Fragment() {
         return input5.text.toString().toDouble()
     }
     private fun getSpinnerItem(spinner: Spinner): String{
-        return when(spinner.selectedItemPosition){
+        return when(spinner.selectedItemPosition!!){
             0 -> "М"
             1 -> "СМ"
             2 -> "ММ"
@@ -356,26 +365,26 @@ class CalculationsFragment9 : Fragment() {
         return title
     }
     private fun checkFields(){
-        input1.doAfterTextChanged {
+        input1!!.doAfterTextChanged {
             checkMetricFields()
         }
-        input2.doAfterTextChanged {
+        input2!!.doAfterTextChanged {
             checkMetricFields()
         }
-        input3.doAfterTextChanged {
+        input3!!.doAfterTextChanged {
             checkMetricFields()
         }
-        input4.doAfterTextChanged {
+        input4!!.doAfterTextChanged {
             checkMetricFields()
         }
-        input5.doAfterTextChanged {
+        input5!!.doAfterTextChanged {
             checkMetricFields()
         }
-        input6.doAfterTextChanged {
+        input6!!.doAfterTextChanged {
             checkMetricFields()
         }
-        spinner1.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View, position: Int, id: Long) {
+        spinner1!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View?, position: Int, id: Long) {
                 checkMetricFields()
             }
 
@@ -383,8 +392,8 @@ class CalculationsFragment9 : Fragment() {
                 // your code here
             }
         }
-        spinner4.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View, position: Int, id: Long) {
+        spinner4!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View?, position: Int, id: Long) {
                 checkMetricFields()
             }
 
@@ -392,8 +401,8 @@ class CalculationsFragment9 : Fragment() {
                 // your code here
             }
         }
-        spinner5.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View, position: Int, id: Long) {
+        spinner5!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View?, position: Int, id: Long) {
                 checkMetricFields()
             }
 
@@ -401,8 +410,8 @@ class CalculationsFragment9 : Fragment() {
                 // your code here
             }
         }
-        spinner6.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View, position: Int, id: Long) {
+        spinner6!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View?, position: Int, id: Long) {
                 checkMetricFields()
             }
 
@@ -410,8 +419,8 @@ class CalculationsFragment9 : Fragment() {
                 // your code here
             }
         }
-        spinner2.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View, position: Int, id: Long) {
+        spinner2!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View?, position: Int, id: Long) {
                 checkMetricFields()
             }
 

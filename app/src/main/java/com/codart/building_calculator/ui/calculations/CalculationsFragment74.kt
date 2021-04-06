@@ -185,7 +185,7 @@ class CalculationsFragment74 : Fragment() {
         }
         fun setView(){
             img.setImageResource(R.drawable.ic_squares_detail_4)
-            setVisibilityGone(txt4,input4,spinner3)
+            setVisibilityGone(txt4,input4,spinner4)
             setVisibilityGone(txt5,input5,spinner5)
             setText(txt1,requireContext().resources.getString(R.string.sizeA))
             setText(txt2,requireContext().resources.getString(R.string.sizeB))
@@ -203,7 +203,7 @@ class CalculationsFragment74 : Fragment() {
         }
         fun setView(){
             img.setImageResource(R.drawable.ic_squares_detail_5)
-            setVisibilityGone(txt4,input4,spinner3)
+            setVisibilityGone(txt4,input4,spinner4)
             setVisibilityGone(txt5,input5,spinner5)
             setText(txt1,requireContext().resources.getString(R.string.sizeA))
             setText(txt2,requireContext().resources.getString(R.string.sizeB))
@@ -239,7 +239,7 @@ class CalculationsFragment74 : Fragment() {
         }
         fun setView(){
             img.setImageResource(R.drawable.ic_squares_detail_7)
-            setVisibilityGone(txt5,input5,spinner4)
+            setVisibilityGone(txt5,input5,spinner5)
             setText(txt1,requireContext().resources.getString(R.string.sizeA))
             setText(txt2,requireContext().resources.getString(R.string.sizeB))
             setText(txt3,requireContext().resources.getString(R.string.sizeC))

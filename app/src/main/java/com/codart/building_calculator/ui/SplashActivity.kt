@@ -14,11 +14,28 @@ import io.paperdb.Paper
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
-        Paper.init(this)
-        val img = findViewById<ImageView>(R.id.img_splash)
-        val anim=AnimationUtils.loadAnimation(applicationContext,R.anim.animation)
-        img.animation=anim
+        try {
+            setContentView(R.layout.activity_splash)
+        }
+        catch (e: Exception)
+        {
+            Log.e("Splash set", e.toString())
+        }
+        try {
+            Paper.init(this)
+        }
+        catch (e: Exception)
+        {
+            Log.e("Paper init", e.toString())
+        }
+        try {
+            val img = findViewById<ImageView>(R.id.img_splash)
+            val anim = AnimationUtils.loadAnimation(applicationContext, R.anim.animation)
+            img.animation = anim
+        }
+        catch (e: java.lang.Exception){
+            Log.e("Anim set", e.toString())
+        }
         val handler = Handler()
         handler.postDelayed({
                             startActivity(Intent(this,MainActivity::class.java))

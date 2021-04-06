@@ -14,7 +14,6 @@ import com.codart.building_calculator.db.Note
 import com.codart.building_calculator.db.NoteDB
 
 class AdvicesAdapter(context: Context): RecyclerView.Adapter<AdvicesAdapter.AdvicesViewHolder>() {
-    val data: MutableList<Note> = NoteDB.getItems()
     var context: Context = context
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AdvicesViewHolder {
         val view: View =

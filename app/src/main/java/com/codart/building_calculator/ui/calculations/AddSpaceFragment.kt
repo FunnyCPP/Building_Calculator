@@ -62,10 +62,10 @@ class AddSpaceFragment : Fragment() {
             {
                 Toast.makeText(requireContext(),"Не все поля заполнены!", Toast.LENGTH_SHORT).show()
             }
-            if(param1 != null) {
+            if(param1 != null && checkFields()) {
                 CalculationsActivity.editSpace(space!!, param1!!)
             }
-            else
+            else if(checkFields())
             {
                CalculationsActivity.addSpace(space!!)
             }

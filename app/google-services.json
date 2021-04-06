@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641314626969",
+    "project_id": "stroy-pro",
+    "storage_bucket": "stroy-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641314626969:android:34868b6997fcb8ce5ac708",
+        "android_client_info": {
+          "package_name": "com.codart.building_calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641314626969-kj0jq9t0i0scqb5fjcmd63kkm1948ev6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUAI7pVtIN7X7g0Gp5VzhC7JKHq5k0rWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641314626969-kj0jq9t0i0scqb5fjcmd63kkm1948ev6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

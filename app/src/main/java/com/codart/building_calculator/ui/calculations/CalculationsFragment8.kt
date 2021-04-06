@@ -165,7 +165,7 @@ class CalculationsFragment8 : Fragment() {
     }
     private fun getNumberBricks(s: Double): Double{
         val t=input3.text.toString().toDouble()
-        return (when(spinner4.selectedItemPosition){
+        return (when(spinner4.selectedItemPosition!!){
             0->s/(a+t)/(c+t)
             1->s/(b+t)/(c+t)
             2->s/(a+t)/(c+t)+s/(b+t)/(c+t)
@@ -176,7 +176,7 @@ class CalculationsFragment8 : Fragment() {
     }
 
     private fun getThicknessInMM(): Double {
-        return when(spinner4.selectedItemPosition){
+        return when(spinner4.selectedItemPosition!!){
             0 -> b.toDouble()
             1 -> a.toDouble()
             2 -> a+b+getLiquorThicknessInMM()
@@ -186,7 +186,7 @@ class CalculationsFragment8 : Fragment() {
         }
     }
     private fun getFieldInM(input: EditText, spinner: Spinner): Double {
-        return when(spinner.selectedItemPosition){
+        return when(spinner.selectedItemPosition!!){
             0 -> input.text.toString().toDouble()
             1 -> input.text.toString().toDouble()/100
             2 -> input.text.toString().toDouble()/1000

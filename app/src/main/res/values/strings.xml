@@ -1,21 +1,21 @@
 <resources>
     <string name="app_name">Строительный калькулятор:</string>
     <string name="title_activity_main">Строительный калькулятор:</string>
-    <string name="title_home">Home:</string>
-    <string name="title_notes">Notes:</string>
-    <string name="title_notebook">Notebook:</string>
-    <string name="open">Open:</string>
-    <string name="close">Close:</string>
-    <string name="title">Строительный калькулятор:</string>
-    <string name="company">Stroy_pro:</string>
-    <string name="calculator">Калькулятор:</string>
-    <string name="line">Линейка:</string>
-    <string name="settings">Настройки:</string>
-    <string name="about">О программе:</string>
-    <string name="main">Основное:</string>
-    <string name="metal">Метал:</string>
-    <string name="squares">Площади:</string>
-    <string name="conveterters">Конверторы:</string>
+    <string name="title_home">Home</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_notebook">Notebook</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title">Строительный калькулятор</string>
+    <string name="company">Stroy_pro</string>
+    <string name="calculator">Калькулято:</string>
+    <string name="line">Линейка</string>
+    <string name="settings">Настройк:</string>
+    <string name="about">О программе</string>
+    <string name="main">Основное</string>
+    <string name="metal">Метал</string>
+    <string name="squares">Площади</string>
+    <string name="converters">Конверторы</string>
     <string name="usefulToKnow">Полезно знать:</string>
     <string name="notes">Сохранения:</string>
     <string name="notebook">Блокнот:</string>
@@ -713,6 +713,14 @@
         <item>600*300*250</item>
         <item>600*400*250</item>
         <item>600*400*300</item>
+        <item>250*120*65 1NF</item>
+        <item>250*85*65 0,7NF</item>
+        <item>250*120*88 1,4NF</item>
+        <item>250*60*65 0,5NF</item>
+        <item>250*138*65 1,3NF</item>
+        <item>250*138*88 1,8NF</item>
+        <item>250*120*55 0,8NF</item>
+        <item>250*200*70 1,8NF</item>
     </string-array>
     <string-array name="calculations9_array2">
         <item>Половина блока</item>
@@ -742,6 +750,14 @@
         <item>600*300*250</item>
         <item>600*400*250</item>
         <item>600*400*300</item>
+        <item>250*120*65 1NF</item>
+        <item>250*85*65 0,7NF</item>
+        <item>250*120*88 1,4NF</item>
+        <item>250*60*65 0,5NF</item>
+        <item>250*138*65 1,3NF</item>
+        <item>250*138*88 1,8NF</item>
+        <item>250*120*55 0,8NF</item>
+        <item>250*200*70 1,8NF</item>
     </string-array>
     <string-array name="calculations13_array1">
         <item>Выбрать:</item>

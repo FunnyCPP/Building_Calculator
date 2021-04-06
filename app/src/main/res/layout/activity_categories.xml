@@ -58,18 +58,48 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
-            <ImageView
-                android:id="@+id/imgBottomMain"
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                app:srcCompat="@drawable/ic_bottom_main_selected" />
+            <LinearLayout
+                android:id="@+id/layout_main_categories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imgBottomMetals"
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_marginLeft="@dimen/margin_left"
-                app:srcCompat="@drawable/ic_bottom_metals" />
+                <ImageView
+                    android:id="@+id/imgBottomMain"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/ic_bottom_main_selected" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_metals_categories"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgBottomMetals"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/ic_bottom_metals" />
+
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/metal" />
+            </LinearLayout>
 
             <ImageView
                 android:id="@+id/imgBottomHome"
@@ -79,18 +109,49 @@
                 android:layout_marginRight="@dimen/margin_left"
                 app:srcCompat="@drawable/ic_home_orange" />
 
-            <ImageView
-                android:id="@+id/imgBottomSquares_advice"
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                app:srcCompat="@drawable/ic_bottom_squares" />
+            <LinearLayout
+                android:id="@+id/layout_squares_categories"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imgBottomConverters"
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_marginLeft="@dimen/margin_left"
-                app:srcCompat="@drawable/ic_bottom_converters" />
+                <ImageView
+                    android:id="@+id/imgBottomSquares_advice"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/ic_bottom_squares" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/squares" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_converters_categories"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgBottomConverters"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/ic_bottom_converters" />
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/converters" />
+            </LinearLayout>
+
         </LinearLayout>
 
 
