@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomBat_calculations5"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            tools:context=".ui.calculations.CalculationsFragment5">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_cell_usefultoknow"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/calculations75_input4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="numberSigned|number|numberDecimal"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/txt4_calculations75"
+                    app:layout_constraintEnd_toEndOf="@+id/calculations75_input1"
+                    app:layout_constraintStart_toStartOf="@+id/calculations75_input1"
+                    app:layout_constraintTop_toBottomOf="@id/calculations75_input3" />
+
+                <TextView
+                    android:id="@+id/calculations75_input2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="numberSigned|number|numberDecimal"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/txt2_calculations75"
+                    app:layout_constraintEnd_toEndOf="@+id/calculations75_input1"
+                    app:layout_constraintStart_toStartOf="@+id/calculations75_input1"
+                    app:layout_constraintTop_toBottomOf="@id/calculations75_input1" />
+
+                <EditText
+                    android:id="@+id/calculations75_input3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="numberSigned|number|numberDecimal"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/txt3_calculations75"
+                    app:layout_constraintEnd_toEndOf="@+id/calculations75_input1"
+                    app:layout_constraintStart_toStartOf="@+id/calculations75_input1"
+                    app:layout_constraintTop_toBottomOf="@+id/calculations75_input2" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/parametres"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    tools:src="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/txt1_calculations75"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:gravity="start|center_vertical"
+                    android:padding="5dp"
+                    android:text="@string/sizeA"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations75_input1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+                <TextView
+                    android:id="@+id/txt2_calculations75"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:gravity="start|center_vertical"
+                    android:padding="5dp"
+                    android:text="@string/sizeC"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations75_input2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txt1_calculations75" />
+
+                <TextView
+                    android:id="@+id/txt3_calculations75"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:gravity="start|center_vertical"
+                    android:padding="5dp"
+                    android:text="@string/priceBeton"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations75_input3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txt2_calculations75" />
+
+                <EditText
+                    android:id="@+id/calculations75_input1"
+                    android:layout_width="120dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="numberSigned|number|numberDecimal"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/txt1_calculations75"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+                <TextView
+                    android:id="@+id/txt4_calculations75"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:gravity="start|center_vertical"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations75_input4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txt3_calculations75" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/bottomBat_calculations5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imgBottomCopy_calculations75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_notes" />
+
+        <ImageView
+            android:id="@+id/imgBottomHome_calculations75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            app:srcCompat="@drawable/ic_home_orange" />
+
+        <ImageView
+            android:id="@+id/imgBottomSave_calculations75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_notebook" />
+    </LinearLayout>
+</RelativeLayout>

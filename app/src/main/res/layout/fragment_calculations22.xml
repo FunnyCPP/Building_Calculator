@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomBat_calculations5"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            tools:context=".ui.calculations.CalculationsFragment5">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_cell_usefultoknow"
+                android:padding="5dp">
+
+                <Spinner
+                    android:id="@+id/spinner8_calculations22"
+                    android:layout_width="55dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/background_black"
+                    android:gravity="center"
+                    android:minWidth="30dp"
+                    android:popupBackground="@drawable/background_black"
+                    android:text="руб"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/calculations22_input7"
+                    app:layout_constraintEnd_toEndOf="@+id/spinner7_calculations22"
+                    app:layout_constraintTop_toBottomOf="@+id/spinner7_calculations22" />
+
+                <TextView
+                    android:id="@+id/spinner2_calculations22"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/background_black"
+                    android:gravity="center"
+                    android:text="кг/м2*мм"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/calculations22_input1" />
+
+                <TextView
+                    android:id="@+id/spinner6_calculations22"
+                    android:layout_width="55dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:background="@drawable/background_black"
+                    android:gravity="center"
+                    android:minWidth="30dp"
+                    android:text="м2"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/calculations22_input5" />
+
+                <TextView
+                    android:id="@+id/spinner7_calculations22"
+                    android:layout_width="55dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:background="@drawable/background_black"
+                    android:gravity="center|start"
+                    android:minWidth="30dp"
+                    android:popupBackground="@drawable/background_black"
+                    android:text="кг"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/calculations22_input6" />
+
+                <EditText
+                    android:id="@+id/calculations22_input5"
+                    android:layout_width="120dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/txt5_calculations22"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner6_calculations22"
+                    app:layout_constraintTop_toBottomOf="@+id/calculations22_input4" />
+
+                <Spinner
+                    android:id="@+id/spinner4_calculations22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:background="@drawable/background_black"
+                    android:popupBackground="@drawable/background_black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/calculations22_input3" />
+
+                <Spinner
+                    android:id="@+id/spinner5_calculations22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/background_black"
+                    android:popupBackground="@drawable/background_black"
+                    app:layout_constraintEnd_toEndOf="@+id/spinner4_calculations22"
+                    app:layout_constraintStart_toStartOf="@+id/spinner4_calculations22"
+                    app:layout_constraintTop_toTopOf="@+id/calculations22_input4" />
+
+                <EditText
+                    android:id="@+id/calculations22_input7"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView30"
+                    app:layout_constraintEnd_toEndOf="@+id/calculations22_input6"
+                    app:layout_constraintStart_toEndOf="@+id/txt_calculations43"
+                    app:layout_constraintStart_toStartOf="@+id/calculations22_input6"
+                    app:layout_constraintTop_toBottomOf="@+id/calculations22_input6" />
+
+                <EditText
+                    android:id="@+id/calculations22_input4"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toEndOf="@+id/calculations22_input3"
+                    app:layout_constraintStart_toStartOf="@+id/calculations22_input3"
+                    app:layout_constraintTop_toBottomOf="@id/calculations22_input3" />
+
+                <EditText
+                    android:id="@+id/calculations22_input6"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner7_calculations22"
+                    app:layout_constraintTop_toBottomOf="@+id/calculations22_input5" />
+
+                <EditText
+                    android:id="@+id/calculations22_input3"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner4_calculations22"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+                <EditText
+                    android:id="@+id/calculations22_input2"
+                    android:layout_width="120dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/calculations22_input1" />
+
+                <Spinner
+                    android:id="@+id/spinner1_calculations22"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:background="@drawable/background_black"
+                    android:popupBackground="@drawable/background_black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/parametres"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    tools:src="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/txt1_calculations22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:gravity="start|center_vertical"
+                    android:minHeight="30dp"
+                    android:text="@string/calculation22_text1"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner1_calculations22"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+                <TextView
+                    android:id="@+id/txt2_calculations22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:gravity="start|center_vertical"
+                    android:minHeight="30dp"
+                    android:text="@string/calculation22_text3"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations22_input1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/calculations22_input1"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:gravity="start|center_vertical"
+                    android:minHeight="30dp"
+                    android:text="@string/calculation22_text2"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations22_input2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txt2_calculations22" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:minHeight="30dp"
+                    android:text="@string/sizeD"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                <TextView
+                    android:id="@+id/txt3_calculations22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:gravity="start|center_vertical"
+                    android:minHeight="30dp"
+                    android:text="@string/calculation22_text4"
+                    app:layout_constraintBottom_toBottomOf="@+id/calculations22_input3"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations22_input3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+                <EditText
+                    android:id="@+id/calculations22_input1"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:background="@drawable/background_black"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner2_calculations22"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_calculations22" />
+
+                <TextView
+                    android:id="@+id/txt4_calculations22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="start|center_vertical"
+                    android:minHeight="30dp"
+                    android:text="@string/calculation22_text5"
+                    app:layout_constraintEnd_toEndOf="@+id/txt3_calculations22"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/txt3_calculations22"
+                    app:layout_constraintTop_toBottomOf="@+id/txt3_calculations22" />
+
+                <TextView
+                    android:id="@+id/txt_calculations43"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:gravity="start|center_vertical"
+                    android:minHeight="30dp"
+                    android:text="@string/calculation22_text7"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations22_input6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txt5_calculations22" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="start|center_vertical"
+                    android:minHeight="30dp"
+                    android:text="@string/calculation22_text8"
+                    app:layout_constraintEnd_toEndOf="@+id/txt_calculations43"
+                    app:layout_constraintStart_toStartOf="@+id/txt_calculations43"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_calculations43" />
+
+                <TextView
+                    android:id="@+id/txt5_calculations22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:gravity="start|center_vertical"
+                    android:minHeight="30dp"
+                    android:text="@string/calculation22_text6"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations22_input5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txt4_calculations22" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView10">
+
+                    <CheckBox
+                        android:id="@+id/calculations22_checkBox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:button="@drawable/ic_checkbox"
+                        android:checked="true"
+                        android:text="@string/from_list" />
+
+                    <CheckBox
+                        android:id="@+id/calculations22_checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/ic_checkbox"
+                        android:text="По расходу" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_calculations22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="30dp"
+                    android:layout_marginTop="16dp"
+                    android:text="TextView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.422"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/spinner1_calculations22" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="5dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+                    <CheckBox
+                        android:id="@+id/calculations22_checkBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/ic_checkbox"
+                        android:checked="true"
+                        android:text="По размерам" />
+
+                    <CheckBox
+                        android:id="@+id/calculations22_checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/ic_checkbox"
+                        android:text="По площади" />
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_cell_usefultoknow"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/calculations22_result5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/calculations22_result4" />
+
+                <TextView
+                    android:id="@+id/calculations22_result4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/calculations22_result3" />
+
+                <TextView
+                    android:id="@+id/calculations22_result3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/calculations22_result2" />
+
+                <TextView
+                    android:id="@+id/calculations22_result2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView15"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/calculations22_result1" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/results"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="32dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/calculation22_text9"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/calculations22_result1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/calculation22_text10"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations22_result2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/calculation22_text11"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toStartOf="@+id/calculations22_result3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/calculation22_text12"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/calculation22_text13"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/calculation22_text14"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+                <TextView
+                    android:id="@+id/calculations22_result1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView14"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                <TextView
+                    android:id="@+id/calculations22_result6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="@dimen/margin_left"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/calculations22_result5" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomBat_calculations5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgBottomCopy_calculations22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_notes" />
+
+        <ImageView
+            android:id="@+id/imgBottomHome_calculations22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            app:srcCompat="@drawable/ic_home_orange" />
+
+        <ImageView
+            android:id="@+id/imgBottomSave_calculations22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_notebook" />
+    </LinearLayout>
+</RelativeLayout>

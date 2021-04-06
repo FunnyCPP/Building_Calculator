@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_calculations"
+    app:startDestination="@id/emptyFragment">
+    <fragment
+        android:id="@+id/emptyFragment"
+        android:name="com.codart.building_calculator.ui.calculations.EmptyFragment"
+        android:label="fragment_empty"
+        tools:layout="@layout/fragment_empty">
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment1"
+            app:destination="@id/calculationsFragment1"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment2"
+            app:destination="@id/calculationsFragment2"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment3"
+            app:destination="@id/calculationsFragment3"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment4"
+            app:destination="@id/calculationsFragment4"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment5"
+            app:destination="@id/calculationsFragment5"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment6"
+            app:destination="@id/calculationsFragment6"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment7"
+            app:destination="@id/calculationsFragment7"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment8"
+            app:destination="@id/calculationsFragment8"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment9"
+            app:destination="@id/calculationsFragment9"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment10"
+            app:destination="@id/calculationsFragment10"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment11"
+            app:destination="@id/calculationsFragment11"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment12"
+            app:destination="@id/calculationsFragment12"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment13"
+            app:destination="@id/calculationsFragment13"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment14"
+            app:destination="@id/calculationsFragment14"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment15"
+            app:destination="@id/calculationsFragment15"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment16"
+            app:destination="@id/calculationsFragment16"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment17"
+            app:destination="@id/calculationsFragment17"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment18"
+            app:destination="@id/calculationsFragment18"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment19"
+            app:destination="@id/calculationsFragment19"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment20"
+            app:destination="@id/calculationsFragment20"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment21"
+            app:destination="@id/calculationsFragment21"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment22"
+            app:destination="@id/calculationsFragment22"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment23"
+            app:destination="@id/calculationsFragment23"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment24"
+            app:destination="@id/calculationsFragment24"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment25"
+            app:destination="@id/calculationsFragment25"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment26"
+            app:destination="@id/calculationsFragment26"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment27"
+            app:destination="@id/calculationsFragment27"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment28"
+            app:destination="@id/calculationsFragment28"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment29"
+            app:destination="@id/calculationsFragment29"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment30"
+            app:destination="@id/calculationsFragment30"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment31"
+            app:destination="@id/fragmentCalculation31"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment32"
+            app:destination="@id/fragmentCalculation32"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment33"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment34"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment35"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment36"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment37"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment38"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment39"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment40"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment41"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment42"
+            app:destination="@id/fragmentCalculations33_42"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment43"
+            app:destination="@id/calculationsFragment43"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment44"
+            app:destination="@id/calculationsFragment44"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment45"
+            app:destination="@id/calculationsFragment45"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment46"
+            app:destination="@id/calculationsFragment46_47"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment47"
+            app:destination="@id/calculationsFragment46_47"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment48"
+            app:destination="@id/calculationsFragment48"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment49"
+            app:destination="@id/calculationsFragment49"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment50"
+            app:destination="@id/calculationsFragment50"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment51"
+            app:destination="@id/calculationsFragment51"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment52"
+            app:destination="@id/calculationsFragment52"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment53"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment54"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment55"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment56"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment57"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment58"
+            app:destination="@id/calculationsFragment52"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment59"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment60"
+            app:destination="@id/calculationsFragment52"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment61"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment62"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment63"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment64"
+            app:destination="@id/calculationsFragment52"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment65"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment66"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment67"
+            app:destination="@id/calculationsFragment52"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment68"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment69"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment70"
+            app:destination="@id/calculationsFragment53_57_59_61_63_65_66_68_73"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment71"
+            app:destination="@id/calculationsFragment52"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment72"
+            app:destination="@id/calculationsFragment52"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment73"
+            app:destination="@id/calculationsFragment52"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment74"
+            app:destination="@id/calculationsFragment74"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_emptyFragment_to_calculationsFragment75"
+            app:destination="@id/calculationsFragment75"
+            app:popUpTo="@+id/emptyFragment"
+            app:popUpToInclusive="true"/>
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/calculationsFragment1"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment1"
+        android:label="fragment_calculations1"
+        tools:layout="@layout/fragment_calculations1" >
+    </fragment>
+    <fragment
+        android:id="@+id/calculationsFragment8"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment8"
+        android:label="CalculationsFragment8" >
+
+        <action
+            android:id="@+id/action_calculationsFragment8_to_addSpaceFragment"
+            app:destination="@id/addSpaceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calculationsFragment9"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment9"
+        android:label="CalculationsFragment9" >
+
+        <action
+            android:id="@+id/action_calculationsFragment9_to_addSpaceFragment"
+            app:destination="@id/addSpaceFragment"
+           />
+    </fragment>
+    <fragment
+        android:id="@+id/calculationsFragment10"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment10"
+        android:label="CalculationsFragment10" >
+        <action
+            android:id="@+id/action_calculationsFragment10_to_addSpaceFragment"
+            app:destination="@id/addSpaceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calculationsFragment11"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment11"
+        android:label="CalculationsFragment11" />
+    <fragment
+        android:id="@+id/calculationsFragment14"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment14"
+        android:label="CalculationsFragment14" />
+    <fragment
+        android:id="@+id/calculationsFragment15"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment15"
+        android:label="CalculationsFragment15" />
+    <fragment
+        android:id="@+id/calculationsFragment16"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment16"
+        android:label="CalculationsFragment16" />
+    <fragment
+        android:id="@+id/calculationsFragment17"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment17"
+        android:label="CalculationsFragment17" />
+    <fragment
+        android:id="@+id/calculationsFragment18"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment18"
+        android:label="CalculationsFragment18" />
+    <fragment
+        android:id="@+id/calculationsFragment19"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment19"
+        android:label="CalculationsFragment19" />
+    <fragment
+        android:id="@+id/calculationsFragment20"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment20"
+        android:label="CalculationsFragment20" />
+    <fragment
+        android:id="@+id/calculationsFragment21"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment21"
+        android:label="CalculationsFragment21" />
+    <fragment
+        android:id="@+id/calculationsFragment22"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment22"
+        android:label="CalculationsFragment22" />
+    <fragment
+        android:id="@+id/calculationsFragment23"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment23"
+        android:label="CalculationsFragment23" />
+    <fragment
+        android:id="@+id/calculationsFragment24"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment24"
+        android:label="CalculationsFragment24" />
+    <fragment
+        android:id="@+id/calculationsFragment25"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment25"
+        android:label="CalculationsFragment25" />
+    <fragment
+        android:id="@+id/calculationsFragment26"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment26"
+        android:label="CalculationsFragment26" />
+    <fragment
+        android:id="@+id/calculationsFragment27"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment27"
+        android:label="CalculationsFragment27" />
+    <fragment
+        android:id="@+id/calculationsFragment28"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment28"
+        android:label="CalculationsFragment28" />
+    <fragment
+        android:id="@+id/calculationsFragment29"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment29"
+        android:label="CalculationsFragment29" />
+    <fragment
+        android:id="@+id/fragmentCalculations33_42"
+        android:name="com.codart.building_calculator.ui.calculations.FragmentCalculations33_42"
+        android:label="FragmentCalculations33_42" />
+    <fragment
+        android:id="@+id/calculationsFragment43"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment43"
+        android:label="CalculationsFragment43" />
+    <fragment
+        android:id="@+id/calculationsFragment44"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment44"
+        android:label="CalculationsFragment44" />
+    <fragment
+        android:id="@+id/calculationsFragment45"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment45"
+        android:label="CalculationsFragment45" />
+    <fragment
+        android:id="@+id/calculationsFragment48"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment48"
+        android:label="CalculationsFragment48" />
+    <fragment
+        android:id="@+id/calculationsFragment49"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment49"
+        android:label="CalculationsFragment49" />
+    <fragment
+        android:id="@+id/calculationsFragment50"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment50"
+        android:label="CalculationsFragment50" />
+    <fragment
+        android:id="@+id/calculationsFragment51"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment51"
+        android:label="CalculationsFragment51" />
+    <fragment
+        android:id="@+id/calculationsFragment52"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment52"
+        android:label="CalculationsFragment52" />
+    <fragment
+        android:id="@+id/calculationsFragment74"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment74"
+        android:label="CalculationsFragment74" />
+    <fragment
+        android:id="@+id/calculationsFragment53_57_59_61_63_65_66_68_73"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment53_57_59_61_63_65_66_68_73"
+        android:label="CalculationsFragment53_57_59_61_63_65_66_68_73" />
+    <fragment
+        android:id="@+id/calculationsFragment75"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment75"
+        android:label="CalculationsFragment75" />
+    <fragment
+        android:id="@+id/calculationsFragment2"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment2"
+        android:label="CalculationsFragment2" />
+    <fragment
+        android:id="@+id/calculationsFragment3"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment3"
+        android:label="CalculationsFragment3" />
+    <fragment
+        android:id="@+id/calculationsFragment4"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment4"
+        android:label="CalculationsFragment4" />
+    <fragment
+        android:id="@+id/calculationsFragment5"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment5"
+        android:label="CalculationsFragment5" />
+    <fragment
+        android:id="@+id/calculationsFragment6"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment6"
+        android:label="CalculationsFragment6" />
+    <fragment
+        android:id="@+id/calculationsFragment7"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment7"
+        android:label="CalculationsFragment7" />
+    <fragment
+        android:id="@+id/calculationsFragment30"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment30"
+        android:label="fragment_calculations30"
+        tools:layout="@layout/fragment_calculations30" />
+    <fragment
+        android:id="@+id/fragmentCalculation31"
+        android:name="com.codart.building_calculator.ui.calculations.FragmentCalculation31"
+        android:label="fragment_calculations31"
+        tools:layout="@layout/fragment_calculations31" />
+    <fragment
+        android:id="@+id/fragmentCalculation32"
+        android:name="com.codart.building_calculator.ui.calculations.FragmentCalculation32"
+        android:label="fragment_calculations32"
+        tools:layout="@layout/fragment_calculations32" />
+    <fragment
+        android:id="@+id/calculationsFragment46_47"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment46_47"
+        android:label="CalculationsFragment46_47" />
+    <fragment
+        android:id="@+id/calculationsFragment12"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment12"
+        android:label="CalculationsFragment12" />
+    <fragment
+        android:id="@+id/calculationsFragment13"
+        android:name="com.codart.building_calculator.ui.calculations.CalculationsFragment13"
+        android:label="CalculationsFragment13" />
+    <fragment
+        android:id="@+id/spaceFragment"
+        android:name="com.codart.building_calculator.ui.calculations.SpaceFragment"
+        android:label="fragment_space"
+        tools:layout="@layout/fragment_space" >
+        <action
+            android:id="@+id/action_spaceFragment_to_addSpaceFragment"
+            app:destination="@id/addSpaceFragment"
+            app:popUpTo="@id/emptyFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_spaceFragment_to_calculationsFragment8"
+            app:destination="@id/calculationsFragment8" />
+        <action
+            android:id="@+id/action_spaceFragment_to_calculationsFragment9"
+            app:destination="@id/calculationsFragment9" />
+        <action
+            android:id="@+id/action_spaceFragment_to_calculationsFragment10"
+            app:destination="@id/calculationsFragment10" />
+        <action
+            android:id="@+id/action_spaceFragment_to_emptyFragment"
+            app:destination="@id/emptyFragment"
+            app:popUpTo="@id/nav_calculations"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addSpaceFragment"
+        android:name="com.codart.building_calculator.ui.calculations.AddSpaceFragment"
+        android:label="fragment_add_space"
+        tools:layout="@layout/fragment_add_space">
+        <action
+            android:id="@+id/action_addSpaceFragment_to_spaceFragment"
+            app:destination="@id/spaceFragment"
+            app:popUpTo="@id/nav_calculations"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

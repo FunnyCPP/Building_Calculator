@@ -1,0 +1,884 @@
+<resources>
+    <string name="app_name">Строительный калькулятор:</string>
+    <string name="title_activity_main">Строительный калькулятор:</string>
+    <string name="title_home">Home:</string>
+    <string name="title_notes">Notes:</string>
+    <string name="title_notebook">Notebook:</string>
+    <string name="open">Open:</string>
+    <string name="close">Close:</string>
+    <string name="title">Строительный калькулятор:</string>
+    <string name="company">Stroy_pro:</string>
+    <string name="calculator">Калькулятор:</string>
+    <string name="line">Линейка:</string>
+    <string name="settings">Настройки:</string>
+    <string name="about">О программе:</string>
+    <string name="main">Основное:</string>
+    <string name="metal">Метал:</string>
+    <string name="squares">Площади:</string>
+    <string name="conveterters">Конверторы:</string>
+    <string name="usefulToKnow">Полезно знать:</string>
+    <string name="notes">Сохранения:</string>
+    <string name="notebook">Блокнот:</string>
+    <string name="parametres">Параметры:</string>
+    <string name="results">Результаты:</string>
+    <string name="sizeA">Размер [A]:</string>
+    <string name="sizeB">Размер [B]:</string>
+    <string name="sizeC">Размер [C]:</string>
+    <string name="sizeD">Размер [D]:</string>
+    <string name="sizeE">Размер [E]:</string>
+    <string name="sort_of_calculation">Вид расчета:</string>
+    <string name="from_list">Из списка:</string>
+    <string name="your_size">Свои розмеры:</string>
+    <string name="add_space">Добавить проёмы
+    (Окна, Двери)</string>
+    <string name="add_space2">Добавить проём</string>
+    <string name="priceBeton">Стоимость бетона за м3:</string>
+    <string name="calculation1_result1">Площадь основания плиты:</string>
+    <string name="calculation1_result2">Объём бетона:</string>
+    <string name="calculation1_result3">Периметр плиты:</string>
+    <string name="calculation1_result4">Площадь боковой поверхности:</string>
+    <string name="calculation1_result5">Вес бетона:</string>
+    <string name="calculation1_result6">Нагрузка на почву:</string>
+    <string name="calculation1_result7">Стоимость бетона:</string>
+
+    <string name="calculation2_result1">Площадь основания фундамента:</string>
+    <string name="calculation2_result3">Внешний периметр:</string>
+    <string name="calculation2_result4">Площадь внешней боковой поверхности:</string>
+
+    <string name="calculation6_text1">Стоимость бетона:</string>
+    <string name="calculation6_text2">Стоимость бетона:</string>
+    <string name="calculation6_text3">Стоимость бетона:</string>
+    <string name="calculation6_text4">Стоимость бетона:</string>
+    <string name="calculation6_text5">Стоимость бетона:</string>
+    <string name="calculation6_text6">Стоимость бетона:</string>
+    <string name="calculation6_text7">Стоимость бетона:</string>
+    <string name="calculation6_text8">Стоимость бетона:</string>
+
+    <string name="calculation7_text1">Диаметр [D]:</string>
+    <string name="calculation7_text2">Высота [H]:</string>
+    <string name="calculation7_text3">Толщина [T]:</string>
+    <string name="calculation7_text4">Объем бетона:</string>
+    <string name="calculation7_text5">Внутрений диаметр:</string>
+    <string name="calculation7_text6">Внутрений объем:</string>
+    <string name="calculation7_text7">Высота арматурной сетки:</string>
+    <string name="calculation7_text8">Ширина арматурной сетки:</string>
+    <string name="calculation7_text9">Площадь арматурной сетки:</string>
+    <string name="calculation7_text10">Приблизительный вес:</string>
+    <string name="cement">Цемент:</string>
+    <string name="sand">Песок:</string>
+    <string name="crushed_stone">Щебень:</string>
+    <string name="water">Вода:</string>
+
+    <string name="add_text1">Название:</string>
+    <string name="add_text2">Длина:</string>
+    <string name="add_text3">Высота:</string>
+    <string name="add_text4">Количество:</string>
+    <string name="add_text5">Добавить в список</string>
+    <string name="add_text6">Отмена</string>
+
+    <string name="calculation8_text1">Вид кирпича:</string>
+    <string name="calculation8_text2">Длина стен:</string>
+    <string name="calculation8_text3">Высота стен:</string>
+    <string name="calculation8_text4">Толщина стен:</string>
+    <string name="calculation8_text5">Толщина раствора в кладке:</string>
+    <string name="calculation8_text6">Вес 1 кирпича:</string>
+    <string name="calculation8_text7">Стоимость одного кирпича:</string>
+    <string name="calculation8_text8">Площадь проёмов:</string>
+    <string name="calculation8_text9">Общая площадь кладки:</string>
+    <string name="calculation8_text10">Толщина стены:</string>
+    <string name="calculation8_text11">Количество кирпича:</string>
+    <string name="calculation8_text12">Объем всего кирпича:</string>
+    <string name="calculation8_text13">Количество кирпича в кубе:</string>
+    <string name="calculation8_text14">Количество полных рядов кирпича в высоту:</string>
+    <string name="calculation8_text15">Вес 1 кирпича:</string>
+    <string name="calculation8_text16">Вес всего кирпича:</string>
+    <string name="calculation8_text17">Нагрузка  на фундамент от кирпича:</string>
+    <string name="calculation8_text18">Стоимость:</string>
+
+    <string name="calculation9_text1">Размеры блока:</string>
+    <string name="calculation9_text2">Стоимость блока:</string>
+    <string name="calculation9_text3">Вес 1 блока:</string>
+    <string name="calculation9_text4">Длина стен:</string>
+    <string name="calculation9_text5">Высота стен:</string>
+    <string name="calculation9_text6">Толщина стен:</string>
+    <string name="calculation9_text7">Толщина раствора:</string>
+    <string name="calculation9_text8">Площадь проёмов:</string>
+    <string name="calculation9_text9">Общая площадь кладки:</string>
+    <string name="calculation9_text10">Толщина стены:</string>
+    <string name="calculation9_text11">Количество блоков:</string>
+    <string name="calculation9_text12">Объем всех блоков:</string>
+    <string name="calculation9_text13">Количество блоков в кубе:</string>
+    <string name="calculation9_text14">Объем раствора:</string>
+    <string name="calculation9_text15">Вес всех блоков:</string>
+    <string name="calculation9_text16">Вес всего кирпича:</string>
+    <string name="calculation9_text17">Нагрузка  на фундамент:</string>
+    <string name="calculation9_text18">Стоимость:</string>
+
+    <string name="calculation10_text1">Размер A:</string>
+    <string name="calculation10_text2">Размер B:</string>
+    <string name="calculation10_text3">Размер C:</string>
+    <string name="calculation10_text4">Длина стен:</string>
+    <string name="calculation10_text5">Высота стен:</string>
+    <string name="calculation10_text6">Вес 1 блока:</string>
+    <string name="calculation10_text7">Толщина стен:</string>
+    <string name="calculation10_text8">Толщина раствора:</string>
+    <string name="calculation10_text9">Стоимость блока:</string>
+    <string name="calculation10_text10">Общая площадь кладки:</string>
+    <string name="calculation10_text11">Толщина стены:</string>
+    <string name="calculation10_text12">Количество блоков:</string>
+    <string name="calculation10_text13">Объем всех блоков:</string>
+    <string name="calculation10_text14">Количество блоков в кубе:</string>
+    <string name="calculation10_text15">Объем раствора:</string>
+    <string name="calculation10_text16">Вес всех блоков:</string>
+    <string name="calculation10_text17">Нагрузка  на фундамент:</string>
+    <string name="calculation10_text18">Стоимость:</string>
+
+    <string name="calculation11_text1">Размер блока/кирпича:</string>
+    <string name="calculation11_text2">Длина :</string>
+    <string name="calculation11_text3">Ширина:</string>
+    <string name="calculation11_text4">Высота:</string>
+    <string name="calculation11_text5">Количество в 1м3:</string>
+
+    <string name="calculation12_text1">Размер блока/кирпича:</string>
+    <string name="calculation12_text2">Длина :</string>
+    <string name="calculation12_text3">Ширина:</string>
+    <string name="calculation12_text4">Высота:</string>
+    <string name="calculation12_text5">Количество в 1 ярде3:</string>
+
+    <string name="calculation13_text1">Вид блока:</string>
+    <string name="calculation13_text2">Прочность:</string>
+    <string name="calculation13_text3">Плотность:</string>
+    <string name="calculation13_text4">Теплопроводность:</string>
+    <string name="calculation13_text5">Морозостойкость:</string>
+    <string name="calculation13_text6">Усадка:</string>
+    <string name="calculation13_text7">Водопоглощение:</string>
+    <string name="calculation13_text8">Характеризует нагрузку на сжатие которую может выдержать блок.</string>
+    <string name="calculation13_text9">Вес 1 кубометра материала</string>
+    <string name="calculation13_text10">Показывает потерю тепла через стену из блоков площадью в 1м2 при перепаде температур в 1 градус.</string>
+    <string name="calculation13_text11">Количество циклов замораживания/размораживания которые способен выдержать материал без значительного понижения прочности.</string>
+    <string name="calculation13_text12">Величина, на которую уменьшается размер блока после выдержки его под давлением стен в течении времени.</string>
+    <string name="calculation13_text13">Процентное соотношение, показывающее сколько влаги способен поглотить материал</string>
+
+    <string name="calculation14_text1">Длина листа:</string>
+    <string name="calculation14_text2">Ширина листа:</string>
+    <string name="calculation14_text3">Толщина листа:</string>
+    <string name="calculation14_text4">Длина:</string>
+    <string name="calculation14_text5">Ширина:</string>
+    <string name="calculation14_text6">Количество слоев утеплителя:</string>
+    <string name="calculation14_text7">Стоимость листа:</string>
+    <string name="calculation14_text8">Плотность:</string>
+    <string name="calculation14_text9">Площадь одного листа:</string>
+    <string name="calculation14_text10">Объем одного листа:</string>
+    <string name="calculation14_text11">Листов 1 м3:</string>
+    <string name="calculation14_text12">Площадь поверхности:</string>
+    <string name="calculation14_text13">Толщина утеплителя:</string>
+    <string name="calculation14_text14">Объем утеплителя:</string>
+    <string name="calculation14_text15">Количество листов:</string>
+    <string name="calculation14_text16">Полная стоимость:</string>
+    <string name="calculation14_text17">Суммарный вес:</string>
+
+    <string name="calculation15_text1">Сторона [A]:</string>
+    <string name="calculation15_text2">Сторона [B]:</string>
+    <string name="calculation15_text3">Доски вдоль стороны:</string>
+    <string name="calculation15_text4">Длина:</string>
+    <string name="calculation15_text5">Ширина:</string>
+    <string name="calculation15_text6">Толщина:</string>
+    <string name="calculation15_text7">Размер [C]:</string>
+    <string name="calculation15_text8">Стоимость:</string>
+    <string name="calculation15_text9">Площадь настила:</string>
+    <string name="calculation15_text10">Количество досок настила:</string>
+    <string name="calculation15_text11">Объем досок настила:</string>
+    <string name="calculation15_text12">Стоимость досок настила:</string>
+    <string name="calculation15_text13">Сумарная стоимость:</string>
+    <string name="calculation15_text14">Учесть лаги</string>
+    <string name="calculation15_text15">Размеры лаг</string>
+    <string name="calculation15_text16">Нахлест [A]:</string>
+    <string name="calculation15_text17">Ширина [B]:</string>
+    <string name="calculation15_text18">Толщина [C]:</string>
+    <string name="calculation15_text19">Обязательны лаги с торцов настила</string>
+    <string name="calculation15_text20">Равномерное роспределение лаг</string>
+    <string name="calculation15_text21">Учесть черновой пол</string>
+    <string name="calculation15_text22">Размеры досок для чернового пола</string>
+    <string name="calculation15_text23">Длина:</string>
+    <string name="calculation15_text24">Ширина:</string>
+    <string name="calculation15_text25">Толщина:</string>
+    <string name="calculation15_text26">Размер [D]:</string>
+    <string name="calculation15_text27">Расчитать стоимость</string>
+    <string name="calculation15_text28">Стоимость досок:</string>
+    <string name="calculation15_text29">Стоимость лаг:</string>
+    <string name="calculation15_text30">Стоимость досок чернового пола:</string>
+    <string name="calculation15_text31">Количество лаг:</string>
+    <string name="calculation15_text32">Длина лаги:</string>
+    <string name="calculation15_text33">Шаг лаг:</string>
+    <string name="calculation15_text34">Ростаяние между лагами:</string>
+    <string name="calculation15_text35">Объем древесины лаг:</string>
+    <string name="calculation15_text36">Объем между лагами для утеплителя:</string>
+    <string name="calculation15_text37">Количество досок чернового пола:</string>
+    <string name="calculation15_text38">Объем досок чернового пола:</string>
+    <string name="calculation15_text39">Стоимость лаг:</string>
+    <string name="calculation15_text40">Стоимость досок чернового пола:</string>
+
+    <string name="calculation16_text1">Длина:</string>
+    <string name="calculation16_text2">Ширина :</string>
+    <string name="calculation16_text3">Длина:</string>
+    <string name="calculation16_text4">Ширина:</string>
+    <string name="calculation16_text5">Ширина:</string>
+    <string name="calculation16_text6">Толщина шва:</string>
+    <string name="calculation16_text7">Подрезка:</string>
+    <string name="calculation16_text8">Стоимость:</string>
+    <string name="calculation16_text9">Площадь поверхности:</string>
+    <string name="calculation16_text10">Необходимое количество плитки:</string>
+    <string name="calculation16_text11">Необходимое количество плитки:</string>
+    <string name="calculation16_text12">Количество плитки с учетом подрезки:</string>
+    <string name="calculation16_text13">Размеры плитки</string>
+    <string name="calculation16_text14">Отходы</string>
+    <string name="calculation16_text15">Учесть швы</string>
+    <string name="calculation16_text16">Добавить процент на подрезку</string>
+    <string name="calculation16_text17">Расчитать стоимость</string>
+    <string name="calculation16_text18">Использывать обрезки</string>
+
+    <string name="calculation17_text1">Тип  покрытия:</string>
+    <string name="calculation17_text2">Длина покрытия:</string>
+    <string name="calculation17_text3">Ширина покрытия:</string>
+    <string name="calculation17_text4">Длина пола:</string>
+    <string name="calculation17_text5">Ширина пола:</string>
+    <string name="calculation17_text6">Минимальный расход:</string>
+    <string name="calculation17_text7">Минимальний расход:</string>
+
+    <string name="calculation18_text1">Длина [A]:</string>
+    <string name="calculation18_text2">Ширина [B]:</string>
+    <string name="calculation18_text3">Толщина:</string>
+    <string name="calculation18_text4">Длина шипа [E]:</string>
+    <string name="calculation18_text5">Количество в упаковке:</string>
+    <string name="calculation18_text6">Высота поверхности [D]:</string>
+    <string name="calculation18_text7">Ширина поверхности[C]:</string>
+    <string name="calculation18_text8">Стоимость упаковки:</string>
+    <string name="calculation18_text9">Площадь покрываемой поверхности:</string>
+    <string name="calculation18_text10">Необходимое количество вагонки:</string>
+    <string name="calculation18_text11">Число полных упаковок:</string>
+    <string name="calculation18_text12">Приблизительная стоимость:</string>
+
+    <string name="calculation19_text1">Грунтовка:</string>
+    <string name="calculation19_text2">Количество слоев:</string>
+    <string name="calculation19_text3">Расход:</string>
+    <string name="calculation19_text4">Длина:</string>
+    <string name="calculation19_text5">Ширина:</string>
+    <string name="calculation19_text6">Площадь поверхности:</string>
+    <string name="calculation19_text7">Вес банки:</string>
+    <string name="calculation19_text8">Стоимость банки:</string>
+    <string name="calculation19_text9">Площадь обрабатываемой поверхности:</string>
+    <string name="calculation19_text10">Расход материалов на 1 м2:</string>
+    <string name="calculation19_text11">Вес материала для обработки поверхности:</string>
+    <string name="calculation19_text12">Количество банок:</string>
+    <string name="calculation19_text13">Стоимость банок:</string>
+    <string name="calculation19_text14">Стоимость за 1м2:</string>
+
+    <string name="calculation20_text1">Расход краски:</string>
+    <string name="calculation20_text2">Количество слоев:</string>
+    <string name="calculation20_text3">Длина:</string>
+    <string name="calculation20_text4">Ширина:</string>
+    <string name="calculation20_text5">Объем банки:</string>
+    <string name="calculation20_text6">Стоимость банки:</string>
+    <string name="calculation20_text7">Площадь поверхности:</string>
+    <string name="calculation20_text8">Объем краски:</string>
+    <string name="calculation20_text9">Необходимое количество банок:</string>
+    <string name="calculation20_text10">Стоимость за 1 м2:</string>
+    <string name="calculation20_text11">Приблизительная стоимость:</string>
+
+    <string name="calculation21_text1">Штукатурка:</string>
+    <string name="calculation21_text2">Толщина слоя [мм]:</string>
+    <string name="calculation21_text3">Расход:</string>
+    <string name="calculation21_text4">Длина:</string>
+    <string name="calculation21_text5">Ширина:</string>
+    <string name="calculation21_text6">Площадь поверхности:</string>
+    <string name="calculation21_text7">Вес банки:</string>
+    <string name="calculation21_text8">Стоимость банки:</string>
+    <string name="calculation21_text9">Площадь обрабатываемой поверхности:</string>
+    <string name="calculation21_text10">Расход материалов на 1 м2:</string>
+    <string name="calculation21_text11">Вес материала для обработки поверхности:</string>
+    <string name="calculation21_text12">Количество банок:</string>
+    <string name="calculation21_text13">Стоимость банок:</string>
+    <string name="calculation21_text14">Стоимость за 1м2:</string>
+
+    <string name="calculation22_text1">Шпаклевка:</string>
+    <string name="calculation22_text2">Толщина слоя [мм]:</string>
+    <string name="calculation22_text3">Расход:</string>
+    <string name="calculation22_text4">Длина:</string>
+    <string name="calculation22_text5">Ширина:</string>
+    <string name="calculation22_text6">Площадь поверхности:</string>
+    <string name="calculation22_text7">Вес банки:</string>
+    <string name="calculation22_text8">Стоимость банки:</string>
+    <string name="calculation22_text9">Площадь обрабатываемой поверхности:</string>
+    <string name="calculation22_text10">Расход материалов на 1 м2:</string>
+    <string name="calculation22_text11">Вес материала для обработки поверхности:</string>
+    <string name="calculation22_text12">Количество банок:</string>
+    <string name="calculation22_text13">Стоимость банок:</string>
+    <string name="calculation22_text14">Стоимость за 1м2:</string>
+
+    <string name="calculation23_text1">Стяжка пола:</string>
+    <string name="calculation23_text2">Толщина слоя [мм]:</string>
+    <string name="calculation23_text3">Расход:</string>
+    <string name="calculation23_text4">Длина:</string>
+    <string name="calculation23_text5">Ширина:</string>
+    <string name="calculation23_text6">Площадь поверхности:</string>
+    <string name="calculation23_text7">Вес банки:</string>
+    <string name="calculation23_text8">Стоимость банки:</string>
+    <string name="calculation23_text9">Площадь обрабатываемой поверхности:</string>
+    <string name="calculation23_text10">Расход материалов на 1 м2:</string>
+    <string name="calculation23_text11">Вес материала для обработки поверхности:</string>
+    <string name="calculation23_text12">Количество банок:</string>
+    <string name="calculation23_text13">Стоимость банок:</string>
+    <string name="calculation23_text14">Стоимость за 1м2:</string>
+
+    <string name="calculation24_text1">Наливной пол:</string>
+    <string name="calculation24_text2">Толщина слоя [мм]:</string>
+    <string name="calculation24_text3">Расход:</string>
+    <string name="calculation24_text4">Длина:</string>
+    <string name="calculation24_text5">Ширина:</string>
+    <string name="calculation24_text6">Площадь поверхности:</string>
+    <string name="calculation24_text7">Вес банки:</string>
+    <string name="calculation24_text8">Стоимость банки:</string>
+    <string name="calculation24_text9">Площадь обрабатываемой поверхности:</string>
+    <string name="calculation24_text10">Расход материалов на 1 м2:</string>
+    <string name="calculation24_text11">Вес материала для обработки поверхности:</string>
+    <string name="calculation24_text12">Количество банок:</string>
+    <string name="calculation24_text13">Стоимость банок:</string>
+    <string name="calculation24_text14">Стоимость за 1м2:</string>
+
+    <string name="calculation25_text1">Плиточный клей:</string>
+    <string name="calculation25_text2">Толщина слоя [мм]:</string>
+    <string name="calculation25_text3">Расход:</string>
+    <string name="calculation25_text4">Длина:</string>
+    <string name="calculation25_text5">Ширина:</string>
+    <string name="calculation25_text6">Площадь поверхности:</string>
+    <string name="calculation25_text7">Вес банки:</string>
+    <string name="calculation25_text8">Стоимость банки:</string>
+    <string name="calculation25_text9">Площадь обрабатываемой поверхности:</string>
+    <string name="calculation25_text10">Расход материалов на 1 м2:</string>
+    <string name="calculation25_text11">Вес материала для обработки поверхности:</string>
+    <string name="calculation25_text12">Количество банок:</string>
+    <string name="calculation25_text13">Стоимость банок:</string>
+    <string name="calculation25_text14">Стоимость за 1м2:</string>
+
+    <string name="calculation26_text1">Выберете размер рулона:</string>
+    <string name="calculation26_text2">Ширина рулона:</string>
+    <string name="calculation26_text3">Длина рулона:</string>
+    <string name="calculation26_text4">Шаг рисунка/раппорт:</string>
+    <string name="calculation26_text5">Стоимость одного рулона:</string>
+    <string name="calculation26_text6">Суммарная ширина стен:</string>
+    <string name="calculation26_text7">Высота стен:</string>
+    <string name="calculation26_text8">Площадь стен:</string>
+    <string name="calculation26_text9">Количество рулонов:</string>
+    <string name="calculation26_text10">Количество листов:</string>
+    <string name="calculation26_text11">Длина листа:</string>
+    <string name="calculation26_text12">Стоимость рулонов:</string>
+
+    <string name="calculation27_text1">Периметр помещения:</string>
+    <string name="calculation27_text2">Длина:</string>
+    <string name="calculation27_text3">Ширина:</string>
+    <string name="calculation27_text4">Длина плинтуса:</string>
+    <string name="calculation27_text5">Цена:</string>
+    <string name="calculation27_text6">Плинтус:</string>
+    <string name="calculation27_text7">Площадь помещения:</string>
+    <string name="calculation27_text8">Стоимость плинтуса:</string>
+    <string name="calculation27_text9">Количество рулонов:</string>
+    <string name="calculation27_text10">Количество листов:</string>
+    <string name="calculation27_text11">Длина листа:</string>
+    <string name="calculation27_text12">Стоимость рулонов:</string>
+
+    <string name="calculation28_text1">Длина:</string>
+    <string name="calculation28_text2">Ширина:</string>
+    <string name="calculation28_text3">Толщина:</string>
+    <string name="calculation28_text4">Количество:</string>
+    <string name="calculation28_text5">Стоимость за м3:</string>
+    <string name="calculation28_text6">Количество в кубометре:</string>
+    <string name="calculation28_text7">Объем одной штуки:</string>
+    <string name="calculation28_text8">Объем всего:</string>
+    <string name="calculation28_text9">Стоимость штуки:</string>
+    <string name="calculation28_text10">Стоимость материалов:</string>
+
+    <string name="calculation29_text1">Длина:</string>
+    <string name="calculation29_text2">Ширина:</string>
+    <string name="calculation29_text3">Толщина:</string>
+    <string name="calculation29_text4">Количество:</string>
+    <string name="calculation29_text5">Стоимость за м3:</string>
+    <string name="calculation29_text6">Количество в кубометре:</string>
+    <string name="calculation29_text7">Объем одной штуки:</string>
+    <string name="calculation29_text8">Количество в заданом объеме:</string>
+    <string name="calculation29_text9">Стоимость штуки:</string>
+    <string name="calculation29_text10">Стоимость материалов:</string>
+
+    <string name="calculation30_text1">Размер [A]:</string>
+    <string name="calculation30_text2">Размер [B]:</string>
+    <string name="calculation30_text3">Размер [H]:</string>
+    <string name="calculation30_text4">Стоимость за м2:</string>
+    <string name="calculation30_text5">Площадь кровли:</string>
+    <string name="calculation30_text6">Угол уклона:</string>
+    <string name="calculation30_text7">Длина ската:</string>
+    <string name="calculation30_text8">Площадь фронтона:</string>
+    <string name="calculation30_text9">Стоимость кровли:</string>
+    <string name="calculation30_text10">Суммарная стоимость:</string>
+
+    <string name="calculation31_text1">Размер [A]:</string>
+    <string name="calculation31_text2">Размер [B]:</string>
+    <string name="calculation31_text3">Размер [H]:</string>
+    <string name="calculation31_text4">Стоимость за м2:</string>
+    <string name="calculation31_text5">Площадь кровли:</string>
+    <string name="calculation31_text6">Угол уклона:</string>
+    <string name="calculation31_text7">Длина ската:</string>
+    <string name="calculation31_text8">Площадь фронтона:</string>
+    <string name="calculation31_text9">Стоимость кровли:</string>
+    <string name="calculation31_text10">Суммарная стоимость:</string>
+
+    <string name="calculation33_42_text1">Объем фигуры:</string>
+    <string name="calculation33_42_text2">Объем жидкости:</string>
+    <string name="calculation33_42_text3">Свободный объем:</string>
+    <string name="calculation33_42_text4">Вес:</string>
+
+
+    <string name="calculation33_text1">Диаметр [D]:</string>
+    <string name="calculation33_text2">Высота [H]:</string>
+    <string name="calculation33_text3">Уровень жидкости [L.L.]:</string>
+    <string name="calculation33_text4">Плотность:</string>
+
+    <string name="calculation34_text1">Диаметр [D]:</string>
+    <string name="calculation34_text2">Длина [L]:</string>
+    <string name="calculation34_text3">Уровень жидкости [L.L.]:</string>
+    <string name="calculation34_text4">Плотность:</string>
+
+    <string name="calculation35_text1">Диаметр [D1]:</string>
+    <string name="calculation35_text2">Диаметр [D2]:</string>
+    <string name="calculation35_text3">Длина [L]:</string>
+    <string name="calculation35_text4">Уровень жидкости [L.L.]:</string>
+    <string name="calculation35_text5">Плотность:</string>
+
+    <string name="calculation36_text1">Размер [A]:</string>
+    <string name="calculation36_text2">Размер [B]:</string>
+    <string name="calculation36_text3">Размер [C]:</string>
+    <string name="calculation36_text4">Уровень жидкости [L.L.]:</string>
+    <string name="calculation36_text5">Плотность:</string>
+
+    <string name="calculation37_text1">Диаметр [D]:</string>
+    <string name="calculation37_text2">Высота [H]:</string>
+    <string name="calculation37_text3">Уровень жидкости [L.L.]:</string>
+    <string name="calculation37_text4">Плотность:</string>
+
+    <string name="calculation38_text1">Диаметр [D]:</string>
+    <string name="calculation38_text2">Высота [H1]:</string>
+    <string name="calculation38_text3">Высота [H2]:</string>
+    <string name="calculation38_text4">Уровень жидкости [L.L.]:</string>
+    <string name="calculation38_text5">Плотность:</string>
+
+    <string name="calculation39_text1">Диаметр [D1]:</string>
+    <string name="calculation39_text2">Диаметр [D1]:</string>
+    <string name="calculation39_text3">Высота [H]:</string>
+    <string name="calculation39_text4">Уровень жидкости [L.L.]:</string>
+    <string name="calculation39_text5">Плотность:</string>
+
+    <string name="calculation40_text1">Диаметр [D1]:</string>
+    <string name="calculation40_text2">Диаметр [D1]:</string>
+    <string name="calculation40_text3">Высота [H1]:</string>
+    <string name="calculation40_text4">Высота [H2]:</string>
+    <string name="calculation40_text5">Уровень жидкости [L.L.]:</string>
+    <string name="calculation40_text6">Плотность:</string>
+
+    <string name="calculation41_text1">Сторона [A]:</string>
+    <string name="calculation41_text2">Сторона [B]:</string>
+    <string name="calculation41_text3">Сторона [C]:</string>
+    <string name="calculation41_text4">Сторона [D]:</string>
+    <string name="calculation41_text5">Высота [H]:</string>
+    <string name="calculation41_text6">Уровень жидкости [L.L.]:</string>
+    <string name="calculation41_text7">Плотность:</string>
+
+    <string name="calculation42_text1">Сторона [A]:</string>
+    <string name="calculation42_text2">Сторона [B]:</string>
+    <string name="calculation42_text3">Сторона [C]:</string>
+    <string name="calculation42_text4">Сторона [D]:</string>
+    <string name="calculation42_text5">Высота [H1]:</string>
+    <string name="calculation42_text6">Высота [H2]:</string>
+    <string name="calculation42_text7">Уровень жидкости [L.L.]:</string>
+    <string name="calculation42_text8">Плотность:</string>
+
+    <string name="calculation43_text1">Вид материала:</string>
+    <string name="calculation43_text2">В 1 м3:</string>
+    <string name="calculation43_text3">Площадь засыпки:</string>
+    <string name="calculation43_text4">Толщина слоя засыпки:</string>
+    <string name="calculation43_text5">Коэффициент уплотнения:</string>
+    <string name="calculation43_text6">Объем ведра:</string>
+    <string name="calculation43_text7">Стоимость:</string>
+    <string name="calculation43_text8">Маса мешка:</string>
+    <string name="calculation43_text9">Объем подушки:</string>
+    <string name="calculation43_text10">Вес материала:</string>
+    <string name="calculation43_text11">Объем материала к закупке с учетом тромбовки:</string>
+    <string name="calculation43_text12">Вес материала в ведре:</string>
+    <string name="calculation43_text13">Количество ведер:</string>
+    <string name="calculation43_text14">Количество мешков :</string>
+    <string name="calculation43_text15">Стоимость:</string>
+
+    <string name="calculation44_text1">Размер [H]:</string>
+    <string name="calculation44_text2">Размер [L]:</string>
+    <string name="calculation44_text3">Размер [a]:</string>
+    <string name="calculation44_text4">Плотность грунта:</string>
+    <string name="calculation44_text5">Раскопка за м3:</string>
+    <string name="calculation44_text6">Вывоз за м3:</string>
+    <string name="calculation44_text7">Объем котлована:</string>
+    <string name="calculation44_text8">Вес грунта:</string>
+    <string name="calculation44_text9">Раскопка:</string>
+    <string name="calculation44_text10">Вывоз грунта:</string>
+    <string name="calculation44_text11">Общие затраты:</string>
+
+    <string name="calculation45_text1">Размер [H]:</string>
+    <string name="calculation45_text2">Размер [L]:</string>
+    <string name="calculation45_text3">Размер [a]:</string>
+    <string name="calculation45_text4">Размер [b]:</string>
+    <string name="calculation45_text5">Плотность грунта:</string>
+    <string name="calculation45_text6">Раскопка за м3:</string>
+    <string name="calculation45_text7">Вывоз за м3:</string>
+    <string name="calculation45_text8">Объем котлована:</string>
+    <string name="calculation45_text9">Вес грунта:</string>
+    <string name="calculation45_text10">Раскопка:</string>
+    <string name="calculation45_text11">Вывоз грунта:</string>
+    <string name="calculation45_text12">Общие затраты:</string>
+
+    <string name="calculation48_text1">Маса тела:</string>
+    <string name="calculation48_text2">Площадь опоры:</string>
+    <string name="calculation48_text3">Ускорение свобоного падения:</string>
+    <string name="calculation48_text4">Давление на опору:</string>
+
+    <string name="calculation49_text1">Диаметр арматуры:</string>
+    <string name="calculation49_text2">Длина стержня:</string>
+    <string name="calculation49_text3">Количество стержней:</string>
+    <string name="calculation49_text4">Стоимостьза тонну:</string>
+    <string name="calculation49_text5">Длина всей арматуры:</string>
+    <string name="calculation49_text6">Вес сиержня:</string>
+    <string name="calculation49_text7">Вес всей арматуры:</string>
+    <string name="calculation49_text8">Метровв тонне:</string>
+    <string name="calculation49_text9">Стоимость стержня:</string>
+    <string name="calculation49_text10">Стоимость всей арматуры:</string>
+
+    <string name="calculation50_text1">Диаметр арматуры:</string>
+    <string name="calculation50_text2">Длина стержня:</string>
+    <string name="calculation50_text3">Вес всей арматуры:</string>
+    <string name="calculation50_text4">Стоимостьза тонну:</string>
+    <string name="calculation50_text5">Длина всей арматуры:</string>
+    <string name="calculation50_text6">Количество стержней:</string>
+    <string name="calculation50_text7">Метров в тонне:</string>
+    <string name="calculation50_text8">Стоимость стержня:</string>
+    <string name="calculation50_text9">Стоимость всей арматуры:</string>
+    <string name="calculation50_text10">Стоимость всей арматуры:</string>
+
+    <string name="calculation51_text1">Диаметр арматуры:</string>
+    <string name="calculation51_text2">Длина стержня:</string>
+    <string name="calculation51_text3">Количество стержней:</string>
+    <string name="calculation51_text4">Стоимость за тонну:</string>
+    <string name="calculation51_text5">Маса 1м профиля:</string>
+    <string name="calculation51_text6">Площадь поперечного сечения:</string>
+    <string name="calculation51_text7">Длина всей арматуры:</string>
+    <string name="calculation51_text8">Вес стержня:</string>
+    <string name="calculation51_text9">Вес всей арматуры:</string>
+    <string name="calculation51_text10">Метров в тонне:</string>
+    <string name="calculation51_text11">Стоимость стержня:</string>
+    <string name="calculation51_text12">Стоимость всей арматуры:</string>
+
+
+    <string name="calculation52_text1">A:</string>
+    <string name="calculation52_text2">B:</string>
+    <string name="calculation52_text3">S:</string>
+    <string name="calculation52_text4">Длина 1 штуки:</string>
+    <string name="calculation52_text5">Вес 1 штуки:</string>
+    <string name="calculation52_text6">Количество:</string>
+    <string name="calculation52_text7">Стоимость в руб:</string>
+    <string name="calculation52_text8">Вес 1 штуки:</string>
+    <string name="calculation52_text9">Длина 1 штуки:</string>
+    <string name="calculation52_text10">Вес всего:</string>
+    <string name="calculation52_text11">Длина общая:</string>
+    <string name="calculation52_text12">Стоимость 1 штуки:</string>
+    <string name="calculation52_text13">Стоимость всего:</string>
+
+    <string name="calculation53_text4">Длина 1 штуки:</string>
+    <string name="calculation53_text6">Количество:</string>
+    <string name="calculation53_text7">Стоимость в руб:</string>
+    <string name="calculation53_text8">Вес 1 штуки:</string>
+    <string name="calculation53_text9">Длина 1 штуки:</string>
+    <string name="calculation53_text10">Вес всего:</string>
+    <string name="calculation53_text11">Длина общая:</string>
+    <string name="calculation53_text12">Стоимость 1 штуки:</string>
+    <string name="calculation53_text13">Стоимость всего:</string>
+
+    <string name="calculation88_text1">Цельсий:</string>
+    <string name="calculation88_text2">Фаренгейт:</string>
+
+    <string name="calculation89_text1">Сантиметр:</string>
+    <string name="calculation89_text2">Дюйм:</string>
+
+    <string name="calculation90_text1">Метр:</string>
+    <string name="calculation90_text2">Фут:</string>
+
+    <string name="calculation91_text1">Метр:</string>
+    <string name="calculation91_text2">Ярд:</string>
+
+    <string name="calculation92_text1">Килограмм:</string>
+    <string name="calculation92_text2">Фунт:</string>
+
+    <string name="calculation93_text1">Грамм:</string>
+    <string name="calculation93_text2">Фунт:</string>
+
+    <string name="calculation94_text1">Грамм:</string>
+    <string name="calculation94_text2">Унция:</string>
+
+    <string name="calculation95_text1">Джоуль:</string>
+    <string name="calculation95_text2">Килакалория:</string>
+
+    <string name="calculation96_text1">Джоуль:</string>
+    <string name="calculation96_text2">Квт/Час:</string>
+
+    <string name="calculation97_text1">Литр:</string>
+    <string name="calculation97_text2">Пинта:</string>
+
+    <string name="calculation98_text1">Литр:</string>
+    <string name="calculation98_text2">Галлон:</string>
+
+    <string name="calculation99_text1">МПф:</string>
+    <string name="calculation99_text2">кГс/см2:</string>
+
+    <string name="calculation100_text1">МПа:</string>
+    <string name="calculation100_text2">фунт/дюйм2:</string>
+
+
+    <string name="c">C:</string>
+    <string name="d">D:</string>
+
+
+    <string-array name="calculations6_array5">
+        <item>М-100 = В 7.5</item>
+        <item>М-150 = В 10</item>
+        <item>М-200 = В 15</item>
+        <item>М-250 = В 20</item>
+        <item>М-300 = В 25</item>
+    </string-array>
+    <string-array name="calculations6_array1">
+        <item>М-400</item>
+        <item>М-500</item>
+    </string-array>
+    <string-array name="calculations6_array2">
+        <item>П-1</item>
+        <item>П-2</item>
+        <item>П-3</item>
+        <item>П-4</item>
+        <item>П-5</item>
+    </string-array>
+    <string-array name="calculations6_array3">
+        <item>0,7мм - 1мм</item>
+        <item>1мм - 1,5мм</item>
+        <item>1,5мм - 2мм</item>
+        <item>2мм - 2,5мм</item>
+        <item>2,5мм - 4мм</item>
+    </string-array>
+    <string-array name="calculations6_array4">
+        <item>5мм - 10мм</item>
+        <item>5мм - 15мм</item>
+        <item>5мм - 20мм</item>
+        <item>5мм - 30мм</item>
+        <item>5мм - 40мм</item>
+    </string-array>
+    <string-array name="calculations8_array1">
+        <item>250*120*65 Облицовочный (одинарный)</item>
+        <item>250*120*88 1НФ (одинарный)</item>
+        <item>250*120*140 1,4НФ (полуторный)</item>
+        <item>250*120*140 2,1НФ (двойной)</item>
+        <item>250*85*65 0,7НФ ("Евро")</item>
+        <item>288*63*138 1,3НФ (модульный одинарный)</item>
+        <item>250*120*138 (Силикатный 3х пустотный)</item>
+    </string-array>
+    <string-array name="calculations8_array2">
+        <item>Половина кирпича</item>
+        <item>В 1 кирпич</item>
+        <item>В 1,5 кирпича</item>
+        <item>В 2 кирпича</item>
+        <item>В 2,5 кирпича</item>
+    </string-array>
+
+    <string-array name="calculations9_array1">
+        <item>250*200*70 1,8NF</item>
+        <item>390*190*188</item>
+        <item>400*200*200</item>
+        <item>600*100*250</item>
+        <item>600*100*300</item>
+        <item>600*150*250</item>
+        <item>600*200*200</item>
+        <item>600*200*250</item>
+        <item>600*200*300</item>
+        <item>600*240*250</item>
+        <item>600*300*200</item>
+        <item>600*300*250</item>
+        <item>600*400*250</item>
+        <item>600*400*300</item>
+    </string-array>
+    <string-array name="calculations9_array2">
+        <item>Половина блока</item>
+        <item>В 1 блок</item>
+        <item>В 1,5 блока</item>
+        <item>В 2 блока</item>
+        <item>В 2,5 блока</item>
+    </string-array>
+    <string-array name="calculations11_array1">
+        <item>250*120*65 Облицовочный (одинарный)</item>
+        <item>250*120*88 1НФ (одинарный)</item>
+        <item>250*120*140 1,4НФ (полуторный)</item>
+        <item>250*85*65 0,7НФ ("Евро")</item>
+        <item>288*63*138 1,3НФ (модульный одинарный)</item>
+        <item>250*120*138 (Силикатный 3х пустотный)</item>
+        <item>250*200*70 1,8NF</item>
+        <item>390*190*188</item>
+        <item>400*200*200</item>
+        <item>600*100*250</item>
+        <item>600*100*300</item>
+        <item>600*150*250</item>
+        <item>600*200*200</item>
+        <item>600*200*250</item>
+        <item>600*200*300</item>
+        <item>600*240*250</item>
+        <item>600*300*200</item>
+        <item>600*300*250</item>
+        <item>600*400*250</item>
+        <item>600*400*300</item>
+    </string-array>
+    <string-array name="calculations13_array1">
+        <item>Выбрать:</item>
+        <item>Керамзитбетонные блоки</item>
+        <item>Пенобетонные блоки</item>
+        <item>Газосиликатные блоки</item>
+        <item>Опилкобетонные блоки</item>
+        <item>Шлакоблоки</item>
+        <item>Кирпич</item>
+    </string-array>
+    <string-array name="calculations15_array1">
+        <item>Штуку</item>
+        <item>м3</item>
+    </string-array>
+    <string-array name="calculations16_array1">
+        <item>Штук</item>
+        <item>м2</item>
+    </string-array>
+    <string-array name="calculations17_array1">
+        <item>Ламинат</item>
+        <item>Керамическая плитка</item>
+        <item>Паркет</item>
+        <item>Паркетная доска</item>
+        <item>Линолеум</item>
+        <item>Ковролин</item>
+    </string-array>
+    <string-array name="calculations19_array1">
+        <item>Caparol Tiefgrund TB</item>
+        <item>Caparol Capasol LF</item>
+        <item>Caparol OptiGrund</item>
+        <item>Caparol AmphiSilan Grundierfarbe</item>
+        <item>Caparol AmphiSilan Putzfestiger</item>
+        <item>Caparol AmphiSilan Tiefgrund LF</item>
+        <item>Caparol Dupa-grund</item>
+        <item>Ceresit CT 16</item>
+        <item>Ceresit CT 17</item>
+        <item>Ceresit CT 19</item>
+        <item>Ceresit R 777</item>
+        <item>Ceresit IN 10</item>
+        <item>КНАУФ Тифергрунд</item>
+        <item>КНАУФ Мультигрунд</item>
+        <item>КНАУФ Миттельгрунд</item>
+        <item>КНАУФ Декоргрунд</item>
+        <item>КНАУФ Бетоконтакт</item>
+        <item>КНАУФ Изогрунд</item>
+        <item>КНАУФ Грундирмитель</item>
+        <item>Tikkurila Otex</item>
+        <item>Tikkurila Otex Aqua</item>
+        <item>Tikkurila Luja</item>
+        <item>Tikkurila Euro Primer</item>
+        <item>Weber prim multi</item>
+        <item>Текс Универсал ГФ-021</item>
+        <item>Боларс Укрепляющая</item>
+        <item>Боларс Глубокого проникновения</item>
+        <item>Боларс Бетоновоконтакт</item>
+        <item>Боларс Acryl-primer</item>
+        <item>Боларс Sil-primer</item>
+        <item>Боларс Антиплесень</item>
+        <item>ВОЛМА Универсал</item>
+        <item>ВОЛМА Контакт</item>
+        <item>ВОЛМА Интерьер</item>
+    </string-array>
+    <string-array name="calculations27_array1">
+        <item>шт.</item>
+        <item>м.п.</item>
+    </string-array>
+    <string-array name="calculations43_array1">
+        <item>Песок строительный</item>
+        <item>Песок речной</item>
+        <item>ПГС - песчано-гравийная смесь</item>
+        <item>Гравий</item>
+        <item>Керамзит</item>
+        <item>Щебень гранитный</item>
+        <item>Известь гашеная</item>
+        <item>Известь негашеная</item>
+        <item>Гипс</item>
+        <item>Цемент</item>
+        <item>Вермикулит спученный</item>
+    </string-array>
+    <string-array name="calculations43_array2">
+        <item>м3</item>
+        <item>тонна</item>
+        <item>мешок</item>
+    </string-array>
+    <string-array name="calculations49_array1">
+        <item>5,5мм</item>
+        <item>6мм</item>
+        <item>8мм</item>
+        <item>10мм</item>
+        <item>12мм</item>
+        <item>14мм</item>
+        <item>16мм</item>
+        <item>18мм</item>
+        <item>20мм</item>
+        <item>22мм</item>
+        <item>25мм</item>
+        <item>28мм</item>
+        <item>32мм</item>
+        <item>36мм</item>
+        <item>40мм</item>
+        <item>45мм</item>
+        <item>50мм</item>
+    </string-array>
+    <string-array name="calculations51_array1">
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>25</item>
+        <item>28</item>
+        <item>32</item>
+        <item>36</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+    </string-array>
+    <string-array name="array_values">
+        <item>М</item>
+        <item>СМ</item>
+        <item>ММ</item>
+    </string-array>
+    <string-array name="array_currencies">
+        <item>$</item>
+        <item>грн</item>
+        <item>руб</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment:</string>
+
+
+</resources>
