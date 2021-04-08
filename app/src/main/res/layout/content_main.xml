@@ -270,7 +270,7 @@
                 android:id="@+id/imgBottomMetals"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_notes_true" />
+                app:srcCompat="@drawable/ic_bottom_note" />
 
             <ImageView
                 android:id="@+id/imgBottomHome"
@@ -278,13 +278,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/ic_home_orange" />
+                app:srcCompat="@drawable/ic_bottom_home_selected" />
 
             <ImageView
                 android:id="@+id/imgBottomSquares_advice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_notebook_true" />
+                app:srcCompat="@drawable/ic_bottom_notebook" />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -78,10 +78,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_gravity="bottom"
+            android:layout_gravity="center"
             android:background="@drawable/background_white"
-            android:foregroundGravity="bottom"
-            android:gravity="bottom|center"
+            android:foregroundGravity="center"
+            android:gravity="center"
             android:orientation="horizontal"
             android:paddingTop="10dp"
             android:paddingBottom="10dp">
@@ -90,7 +90,7 @@
                 android:id="@+id/img_notes2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_notes_true" />
+                app:srcCompat="@drawable/ic_bottom_note" />
 
             <ImageView
                 android:id="@+id/img_home2"
@@ -98,13 +98,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/ic_home_orange" />
+                app:srcCompat="@drawable/ic_bottom_home" />
 
             <ImageView
                 android:id="@+id/img_notebook2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_notebook_true" />
+                app:srcCompat="@drawable/ic_bottom_notebook_selected" />
         </LinearLayout>
 
 

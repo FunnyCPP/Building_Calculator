@@ -23,6 +23,10 @@ class CategoriesActivity : AppCompatActivity() {
     lateinit var imgHome: ImageView
     lateinit var imgSquares: LinearLayout
     lateinit var imgConverters: LinearLayout
+    lateinit var main: ImageView
+    lateinit var metals: ImageView
+    lateinit var squares: ImageView
+    lateinit var converters: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +36,12 @@ class CategoriesActivity : AppCompatActivity() {
         imgHome=findViewById(R.id.imgBottomHome)
         imgSquares=findViewById(R.id.layout_squares_categories)
         imgConverters=findViewById(R.id.layout_converters_categories)
+        main=findViewById(R.id.imgBottomMain)
+        metals=findViewById(R.id.imgBottomMetals)
+        squares=findViewById(R.id.imgBottomSquares_advice)
+        converters=findViewById(R.id.imgBottomConverters)
+
+
         imgMain.setOnClickListener {
             val intent = Intent(this, CategoriesActivity::class.java)
             intent.putExtra("id",1)
@@ -59,6 +69,12 @@ class CategoriesActivity : AppCompatActivity() {
         toolbar = findViewById(R.id.toolbar_categories)
         setSupportActionBar(toolbar)
         toolbar.title=CategoriesGeneration.getTitle(intent.getIntExtra("id",1))
+        when(intent.getIntExtra("id",1)) {
+            1 -> main.setImageResource(R.drawable.ic_bottom_main_selected)
+            2 -> metals.setImageResource(R.drawable.ic_bottom_metals_selected)
+            3 -> squares.setImageResource(R.drawable.ic_bottom_squares_selected)
+            4 -> converters.setImageResource(R.drawable.ic_bottom_converters_selected)
+        }
         drawerLayout = findViewById(R.id.drawer_layout_categories)
         toogle = ActionBarDrawerToggle(this,drawerLayout,toolbar,0,0)
         drawerLayout.addDrawerListener(toogle!!)

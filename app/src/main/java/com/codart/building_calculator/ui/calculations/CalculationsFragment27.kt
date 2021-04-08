@@ -117,7 +117,7 @@ class CalculationsFragment27 : Fragment() {
                 }
         }
         if(checkBox2.isChecked) {
-            if(input1.text.isNotEmpty() &&input2.text.isNotEmpty() && input4.text.isNotEmpty()  && input5.text.isNotEmpty()  ) {
+            if(input2.text.isNotEmpty() &&input3.text.isNotEmpty() && input4.text.isNotEmpty()  && input5.text.isNotEmpty()  ) {
                 calculate1to6results()
             }
         }

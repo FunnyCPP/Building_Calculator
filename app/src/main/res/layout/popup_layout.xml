@@ -44,7 +44,7 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_calculator" />
+            app:srcCompat="@drawable/ic_main_page" />
 
         <TextView
             android:id="@+id/txtCalculator"
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:labelFor="@id/imageView"
             android:paddingLeft="15dp"
-            android:text="@string/calculator"
+            android:text="@string/main_page"
             android:textColor="@color/black_fill"
             android:textSize="16sp" />
     </LinearLayout>
@@ -67,9 +67,9 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_line" />
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:srcCompat="@drawable/no_ads" />
 
         <TextView
             android:id="@+id/txtLine"
@@ -77,7 +77,7 @@
             android:layout_height="wrap_content"
             android:labelFor="@id/imageView2"
             android:paddingLeft="15dp"
-            android:text="@string/line"
+            android:text="@string/subscribe"
             android:textColor="@color/black_fill"
             android:textSize="16sp" />
     </LinearLayout>

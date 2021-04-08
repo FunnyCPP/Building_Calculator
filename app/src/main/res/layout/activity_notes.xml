@@ -73,8 +73,8 @@
             android:layout_alignParentBottom="true"
             android:layout_gravity="bottom"
             android:background="@drawable/background_white"
-            android:foregroundGravity="bottom"
-            android:gravity="bottom|center"
+            android:foregroundGravity="center"
+            android:gravity="center"
             android:orientation="horizontal"
             android:paddingTop="10dp"
             android:paddingBottom="10dp">
@@ -83,7 +83,7 @@
                 android:id="@+id/img_notes3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_notes_true" />
+                app:srcCompat="@drawable/ic_bottom_note_selected" />
 
             <ImageView
                 android:id="@+id/img_home3"
@@ -97,7 +97,7 @@
                 android:id="@+id/img_notebook3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_notebook_true" />
+                app:srcCompat="@drawable/ic_bottom_notebook" />
         </LinearLayout>
 
 

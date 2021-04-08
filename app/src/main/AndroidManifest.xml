@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.codart.building_calculator">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,12 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Building_Calculator">
+        <activity android:name=".ui.SubscribeActivity"></activity>
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4258310895444755~7847954212"/>
-        <activity android:name="com.codart.building_calculator.ui.AdviceActivity"></activity>
+            android:value="ca-app-pub-4258310895444755~7847954212" />
+
+        <activity android:name=".ui.AdviceActivity" />
         <activity
-            android:name="com.codart.building_calculator.ui.SplashActivity"
+            android:name=".ui.SplashActivity"
             android:noHistory="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -24,21 +29,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.codart.building_calculator.ui.CalculationsActivity"
+            android:name=".ui.CalculationsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.codart.building_calculator.ui.CategoriesActivity"
+            android:name=".ui.CategoriesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.codart.building_calculator.ui.notes.NotesActivity"
+            android:name=".ui.notes.NotesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.codart.building_calculator.ui.notebook.NotebookActivity"
+            android:name=".ui.notebook.NotebookActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.codart.building_calculator.ui.MainActivity"
+            android:name=".ui.MainActivity"
             android:label="@string/title_activity_main"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"

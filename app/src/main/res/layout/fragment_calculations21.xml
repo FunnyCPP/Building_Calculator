@@ -86,13 +86,13 @@
 
                 <EditText
                     android:id="@+id/calculations21_input5"
-                    android:layout_width="120dp"
+                    android:layout_width="121dp"
                     android:layout_height="0dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="@dimen/margin_left"
                     android:background="@drawable/background_black"
                     android:ems="10"
-                    android:inputType="numberSigned|number|numberDecimal"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:visibility="gone"
@@ -127,7 +127,7 @@
                     android:layout_marginTop="16dp"
                     android:background="@drawable/background_black"
                     android:ems="10"
-                    android:inputType="numberSigned|number|numberDecimal"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="@+id/textView30"
@@ -138,12 +138,12 @@
 
                 <EditText
                     android:id="@+id/calculations21_input4"
-                    android:layout_width="120dp"
+                    android:layout_width="121dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/background_black"
                     android:ems="10"
-                    android:inputType="numberSigned|number|numberDecimal"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     app:layout_constraintEnd_toEndOf="@+id/calculations21_input3"
@@ -152,13 +152,13 @@
 
                 <EditText
                     android:id="@+id/calculations21_input6"
-                    android:layout_width="120dp"
+                    android:layout_width="121dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/background_black"
                     android:ems="10"
-                    android:inputType="numberSigned|number|numberDecimal"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     app:layout_constraintEnd_toStartOf="@+id/spinner7_calculations21"
@@ -166,13 +166,13 @@
 
                 <EditText
                     android:id="@+id/calculations21_input3"
-                    android:layout_width="120dp"
+                    android:layout_width="121dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="@dimen/margin_left"
                     android:background="@drawable/background_black"
                     android:ems="10"
-                    android:inputType="numberSigned|number|numberDecimal"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     app:layout_constraintEnd_toStartOf="@+id/spinner4_calculations21"
@@ -180,22 +180,23 @@
 
                 <EditText
                     android:id="@+id/calculations21_input2"
-                    android:layout_width="120dp"
+                    android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/background_black"
                     android:ems="10"
-                    android:inputType="numberSigned|number|numberDecimal"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="@+id/textView10"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations21"
                     app:layout_constraintTop_toBottomOf="@id/calculations21_input1" />
 
                 <Spinner
                     android:id="@+id/spinner1_calculations21"
-                    android:layout_width="200dp"
+                    android:layout_width="210dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="@dimen/margin_left"
@@ -268,17 +269,6 @@
                     app:layout_constraintTop_toBottomOf="@+id/txt2_calculations21" />
 
                 <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:minHeight="30dp"
-                    android:text="@string/sizeD"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
-                <TextView
                     android:id="@+id/txt3_calculations21"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -295,13 +285,13 @@
 
                 <EditText
                     android:id="@+id/calculations21_input1"
-                    android:layout_width="120dp"
+                    android:layout_width="121dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="@dimen/margin_left"
                     android:background="@drawable/background_black"
                     android:ems="10"
-                    android:inputType="numberSigned|number|numberDecimal"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:visibility="gone"
@@ -412,7 +402,7 @@
                     android:orientation="horizontal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView8">
+                    app:layout_constraintTop_toBottomOf="@+id/calculations21_input2">
 
                     <CheckBox
                         android:id="@+id/calculations21_checkBox3"

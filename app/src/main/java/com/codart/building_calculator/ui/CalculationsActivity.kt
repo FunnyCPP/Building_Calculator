@@ -31,7 +31,7 @@ class CalculationsActivity : AppCompatActivity() {
         MobileAds.initialize(this) {}
        var adRequest = AdRequest.Builder().build()
         //ca-app-pub-7677251733560484/7261211991
-       /* com.google.android.gms.ads.interstitial.InterstitialAd.load(this,"ca-app-pub-4258310895444755/4464270640", adRequest, object : InterstitialAdLoadCallback() {
+       com.google.android.gms.ads.interstitial.InterstitialAd.load(this,"ca-app-pub-4258310895444755/4464270640", adRequest, object : InterstitialAdLoadCallback() {
             override fun onAdFailedToLoad(adError: LoadAdError) {
                 Log.d(TAG, adError?.message)
                 mInterstitialAd = null
@@ -60,7 +60,7 @@ class CalculationsActivity : AppCompatActivity() {
                     }
                 }
             }
-        })*/
+        })
        val navController = Navigation.findNavController(this, R.id.fragment_calculations)
         toolbar = findViewById(R.id.toolbar_calculations)
         setSupportActionBar(toolbar)
