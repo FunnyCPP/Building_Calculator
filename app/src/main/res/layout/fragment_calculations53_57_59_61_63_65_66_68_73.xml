@@ -30,37 +30,43 @@
 
                 <TextView
                     android:id="@+id/spinner2_calculations53"
-                    android:layout_width="30dp"
+                    android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/background_black"
-                    android:gravity="center"
+                    android:gravity="center|start"
                     android:text="м"
                     android:textColor="@color/white"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/spinner4_calculations53"
                     app:layout_constraintTop_toBottomOf="@+id/spinner1_calculations53" />
 
-                <Spinner
+                <TextView
                     android:id="@+id/spinner3_calculations53"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/background_black"
+                    android:gravity="center|start"
                     android:popupBackground="@drawable/background_black"
+                    android:text="ед"
+                    android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="@+id/calculations53_input2"
                     app:layout_constraintEnd_toEndOf="@+id/spinner2_calculations53"
+                    app:layout_constraintStart_toStartOf="@+id/spinner4_calculations53"
                     app:layout_constraintTop_toBottomOf="@+id/spinner2_calculations53" />
 
                 <Spinner
                     android:id="@+id/spinner4_calculations53"
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
                     android:background="@drawable/background_black"
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintBottom_toBottomOf="@+id/calculations53_input6"
-                    app:layout_constraintEnd_toEndOf="@+id/spinner2_calculations53"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/spinner3_calculations53" />
 
                 <EditText

@@ -93,7 +93,7 @@ android:orientation="vertical">
             android:id="@+id/imgBottomNote_advice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_notes_true" />
+            app:srcCompat="@drawable/ic_bottom_note" />
 
         <ImageView
             android:id="@+id/imgBottomHome_advice"
@@ -107,7 +107,7 @@ android:orientation="vertical">
             android:id="@+id/imgBottomNotebook_advice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_notebook_true" />
+            app:srcCompat="@drawable/ic_bottom_notebook" />
     </LinearLayout>
 
 

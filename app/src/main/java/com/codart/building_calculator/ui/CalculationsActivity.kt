@@ -3,12 +3,17 @@ package com.codart.building_calculator.ui
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.Navigation
 import com.google.android.material.navigation.NavigationView
 import com.codart.building_calculator.R
+import com.codart.building_calculator.billing.BillingViewModel
+import com.codart.building_calculator.billing.localdb.SubState
 import com.codart.building_calculator.calculations.Round
 import com.codart.building_calculator.db.CategoriesGeneration
 import com.codart.building_calculator.models.Space
@@ -31,36 +36,45 @@ class CalculationsActivity : AppCompatActivity() {
         MobileAds.initialize(this) {}
        var adRequest = AdRequest.Builder().build()
         //ca-app-pub-7677251733560484/7261211991
-       com.google.android.gms.ads.interstitial.InterstitialAd.load(this,"ca-app-pub-4258310895444755/4464270640", adRequest, object : InterstitialAdLoadCallback() {
-            override fun onAdFailedToLoad(adError: LoadAdError) {
-                Log.d(TAG, adError?.message)
-                mInterstitialAd = null
-            }
-
-            override fun onAdLoaded(interstitialAd: com.google.android.gms.ads.interstitial.InterstitialAd) {
-                Log.d(TAG, "Ad was loaded.")
-                mInterstitialAd = interstitialAd
-                if (mInterstitialAd != null) {
-                    mInterstitialAd?.show(this@CalculationsActivity)
-                } else {
-                    Log.d(TAG, "The interstitial ad wasn't ready yet.")
+        Log.d("---sub---",SubState.isSubActive().toString())
+        if(!SubState.isSubActive()) {
+            Log.d("--AD--",SubState.isSubActive().toString())
+           // Toast.makeText(this,"AD Will show", Toast.LENGTH_LONG).show()
+            val mAdView: AdView = findViewById(R.id.adView)
+            val adRequestBanner = AdRequest.Builder().build()
+            mAdView.loadAd(adRequestBanner)
+            //ca-app-pub-4258310895444755/4464270640
+            com.google.android.gms.ads.interstitial.InterstitialAd.load(this, "ca-app-pub-4258310895444755/4464270640", adRequest, object : InterstitialAdLoadCallback() {
+                override fun onAdFailedToLoad(adError: LoadAdError) {
+                    Log.d(TAG, adError?.message)
+                    mInterstitialAd = null
                 }
-                mInterstitialAd?.fullScreenContentCallback = object: FullScreenContentCallback() {
-                    override fun onAdDismissedFullScreenContent() {
-                        Log.d(TAG, "Ad was dismissed.")
-                    }
 
-                    override fun onAdFailedToShowFullScreenContent(adError: AdError?) {
-                        Log.d(TAG, "Ad failed to show.")
+                override fun onAdLoaded(interstitialAd: com.google.android.gms.ads.interstitial.InterstitialAd) {
+                    Log.d(TAG, "Ad was loaded.")
+                    mInterstitialAd = interstitialAd
+                    if (mInterstitialAd != null) {
+                        mInterstitialAd?.show(this@CalculationsActivity)
+                    } else {
+                        Log.d(TAG, "The interstitial ad wasn't ready yet.")
                     }
+                    mInterstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
+                        override fun onAdDismissedFullScreenContent() {
+                            Log.d(TAG, "Ad was dismissed.")
+                        }
 
-                    override fun onAdShowedFullScreenContent() {
-                        Log.d(TAG, "Ad showed fullscreen content.")
-                        mInterstitialAd = null;
+                        override fun onAdFailedToShowFullScreenContent(adError: AdError?) {
+                            Log.d(TAG, "Ad failed to show.")
+                        }
+
+                        override fun onAdShowedFullScreenContent() {
+                            Log.d(TAG, "Ad showed fullscreen content.")
+                            mInterstitialAd = null;
+                        }
                     }
                 }
-            }
-        })
+            })
+        }
        val navController = Navigation.findNavController(this, R.id.fragment_calculations)
         toolbar = findViewById(R.id.toolbar_calculations)
         setSupportActionBar(toolbar)
@@ -112,7 +126,6 @@ class CalculationsActivity : AppCompatActivity() {
             return Round.round(s)
         }
     }
-
     override fun onBackPressed() {
         super.onBackPressed()
     }

@@ -47,6 +47,7 @@
                     android:layout_height="30dp"
                     android:background="@drawable/background_black"
                     android:gravity="center"
+                    android:popupBackground="@drawable/background_black"
                     android:text="ед"
                     android:textColor="@color/white"
                     app:layout_constraintEnd_toEndOf="@+id/spinner2_calculations50"
@@ -70,7 +71,7 @@
 
                 <EditText
                     android:id="@+id/calculations50_input4"
-                    android:layout_width="120dp"
+                    android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/background_black"
@@ -86,7 +87,7 @@
 
                 <EditText
                     android:id="@+id/calculations50_input3"
-                    android:layout_width="120dp"
+                    android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/background_black"
@@ -101,7 +102,7 @@
 
                 <EditText
                     android:id="@+id/calculations50_input2"
-                    android:layout_width="120dp"
+                    android:layout_width="100dp"
                     android:layout_height="0dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="@dimen/margin_left"

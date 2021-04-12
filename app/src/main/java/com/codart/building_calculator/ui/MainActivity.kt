@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var layoutMetal: RelativeLayout
     lateinit var layoutSquares: RelativeLayout
     lateinit var layoutConverters: RelativeLayout
+    lateinit var popup: LinearLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,11 +49,18 @@ class MainActivity : AppCompatActivity() {
         layoutMetal= findViewById(R.id.layout_metal)
         layoutSquares= findViewById(R.id.layout_squares)
         layoutConverters= findViewById(R.id.layout_convertors)
+        popup= findViewById(R.id.popup_noads)
         setBottomBar()
         setCategoriesOnClickEvents()
         setAdvicesRecycler()
+        setDrawer()
 
-
+    }
+    fun setDrawer(){
+        popup.setOnClickListener{
+            val i: Intent = Intent(this, SubscribeActivity::class.java)
+            startActivity(i)
+        }
     }
     fun setCategoriesOnClickEvents(){
         layoutMain.setOnClickListener{

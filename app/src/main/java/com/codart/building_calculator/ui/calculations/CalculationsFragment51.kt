@@ -140,7 +140,7 @@ class CalculationsFragment51 : Fragment() {
         var res4 = 1000 / m
         val res5 = (p / 1000) * (res2)
         val res6 = res5 * n
-
+        result7.text = "${Round.round(res5)} ${spinner4.selectedItem}"
         result8.text = "${Round.round(res6)} ${spinner4.selectedItem}"
     }
     fun getD(): Double{

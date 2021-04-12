@@ -19,8 +19,8 @@ class AdviceActivity : AppCompatActivity() {
         val title: TextView=findViewById(R.id.txt_title_advice)
         val info: TextView=findViewById(R.id.txt_info_advice)
         val imgNote: ImageView=findViewById(R.id.imgBottomNote_advice)
-        val imgHome: ImageView=findViewById(R.id.imgBottomNote_advice)
-        val imgNotebook: ImageView=findViewById(R.id.imgBottomNote_advice)
+        val imgHome: ImageView=findViewById(R.id.imgBottomHome_advice)
+        val imgNotebook: ImageView=findViewById(R.id.imgBottomNotebook_advice)
         val toolbar: androidx.appcompat.widget.Toolbar=findViewById(R.id.toolbar_advice)
         imgNote.setOnClickListener {
             startActivity(Intent(this,NotesActivity::class.java))

@@ -7,7 +7,10 @@ import android.os.Handler
 import android.util.Log
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
+import androidx.lifecycle.ViewModelProviders
 import com.codart.building_calculator.R
+import com.codart.building_calculator.billing.BillingViewModel
+import com.codart.building_calculator.billing.localdb.SubState
 import com.codart.building_calculator.calculations.Round
 import io.paperdb.Paper
 
@@ -23,6 +26,9 @@ class SplashActivity : AppCompatActivity() {
         }
         try {
             Paper.init(this)
+            val billingViewModel = ViewModelProviders.of(this).get(BillingViewModel::class.java)
+            billingViewModel.queryPurchases()
+
         }
         catch (e: Exception)
         {

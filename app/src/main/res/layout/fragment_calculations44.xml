@@ -37,25 +37,28 @@
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintBottom_toBottomOf="@+id/calculations44_input6"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations44"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations44"
                     app:layout_constraintTop_toBottomOf="@+id/spinner5_calculations44" />
 
                 <Spinner
                     android:id="@+id/spinner5_calculations44"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:background="@drawable/background_black"
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintBottom_toBottomOf="@+id/calculations44_input5"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations44"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations44"
                     app:layout_constraintTop_toTopOf="@+id/calculations44_input5" />
 
                 <Spinner
                     android:id="@+id/spinner3_calculations44"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:background="@drawable/background_black"
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations44"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations44"
                     app:layout_constraintTop_toTopOf="@+id/calculations44_input3" />
 
                 <TextView
@@ -63,7 +66,9 @@
                     android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:background="@drawable/background_black"
+                    android:gravity="center"
                     android:text="кг/м3"
+                    android:textColor="@color/white"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations44"
                     app:layout_constraintStart_toStartOf="@+id/spinner1_calculations44"
                     app:layout_constraintTop_toTopOf="@+id/calculations44_input4" />
@@ -111,12 +116,13 @@
 
                 <Spinner
                     android:id="@+id/spinner2_calculations44"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/background_black"
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations44"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations44"
                     app:layout_constraintTop_toBottomOf="@+id/spinner1_calculations44" />
 
                 <EditText

@@ -37,16 +37,18 @@
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintBottom_toBottomOf="@+id/calculations45_input6"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations45"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations45"
                     app:layout_constraintTop_toBottomOf="@+id/spinner5_calculations45" />
 
                 <Spinner
                     android:id="@+id/spinner7_calculations45"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:background="@drawable/background_black"
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintBottom_toBottomOf="@+id/calculations45_input7"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations45"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations45"
                     app:layout_constraintTop_toTopOf="@+id/calculations45_input7" />
 
                 <TextView
@@ -54,7 +56,9 @@
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:background="@drawable/background_black"
+                    android:gravity="center"
                     android:text="кг/м3"
+                    android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="@+id/calculations45_input5"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations45"
                     app:layout_constraintStart_toStartOf="@+id/spinner1_calculations45"
@@ -62,20 +66,22 @@
 
                 <Spinner
                     android:id="@+id/spinner3_calculations45"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:background="@drawable/background_black"
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations45"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations45"
                     app:layout_constraintTop_toTopOf="@+id/calculations45_input3" />
 
                 <Spinner
                     android:id="@+id/spinner4_calculations45"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:background="@drawable/background_black"
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations45"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations45"
                     app:layout_constraintTop_toTopOf="@+id/calculations45_input4" />
 
                 <EditText
@@ -99,7 +105,7 @@
                     android:layout_marginTop="16dp"
                     android:background="@drawable/background_black"
                     android:ems="10"
-                    android:inputType="number"
+                    android:inputType="number|numberDecimal"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="@+id/txt6_2_calculations45"
@@ -135,12 +141,13 @@
 
                 <Spinner
                     android:id="@+id/spinner2_calculations45"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/background_black"
                     android:popupBackground="@drawable/background_black"
                     app:layout_constraintEnd_toEndOf="@+id/spinner1_calculations45"
+                    app:layout_constraintStart_toStartOf="@+id/spinner1_calculations45"
                     app:layout_constraintTop_toBottomOf="@+id/spinner1_calculations45" />
 
                 <EditText

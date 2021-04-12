@@ -92,7 +92,7 @@ class CalculationsFragment45 : Fragment() {
         super.onViewCreated(view, savedInstanceState)
     }
     fun checkMetricFields(){
-        if(input1.text.isNotEmpty() && input2.text.isNotEmpty()  && input3.text.isNotEmpty()&& input4.text.isNotEmpty()  && input5.text.isNotEmpty()  && input6.text.isNotEmpty()  ) {
+        if(input1.text.isNotEmpty() && input2.text.isNotEmpty()  && input3.text.isNotEmpty()&& input4.text.isNotEmpty()  && input5.text.isNotEmpty()  && input6.text.isNotEmpty() && input7.text.isNotEmpty()  ) {
             calculate1to6results()
         }
     }
@@ -133,6 +133,7 @@ class CalculationsFragment45 : Fragment() {
         spinner3.adapter=adapter2
         spinner1.adapter=adapter2
         spinner2.adapter=adapter2
+        spinner4.adapter=adapter2
         array=resources.getStringArray(R.array.array_currencies)
         adapter2 = ValuesSpinnerAdapter(requireContext(), array)
         spinner6.adapter=adapter2
@@ -267,6 +268,12 @@ class CalculationsFragment45 : Fragment() {
             checkMetricFields()
         }
         input5.doAfterTextChanged {
+            checkMetricFields()
+        }
+        input6.doAfterTextChanged {
+            checkMetricFields()
+        }
+        input7.doAfterTextChanged {
             checkMetricFields()
         }
 

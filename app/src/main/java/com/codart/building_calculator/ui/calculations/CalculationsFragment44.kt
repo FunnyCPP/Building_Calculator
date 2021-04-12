@@ -266,6 +266,9 @@ class CalculationsFragment44 : Fragment() {
         input5.doAfterTextChanged {
             checkMetricFields()
         }
+        input6.doAfterTextChanged {
+            checkMetricFields()
+        }
 
         spinner1.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parentView: AdapterView<*>?, selectedItemView: View, position: Int, id: Long) {

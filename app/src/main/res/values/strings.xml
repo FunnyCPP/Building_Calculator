@@ -1,6 +1,9 @@
 <resources>
+    <string name="facebook_app_id">com.codart.building_calculator</string>
+    <string name="fb_login_protocol_scheme">fbcom.codart.building_calculator</string>
     <string name="app_name">Строительный калькулятор:</string>
     <string name="title_activity_main">Строительный калькулятор:</string>
+    <string name="triangle">Введите 2 стороны и угол или 2 угла и сторону</string>
     <string name="title_home">Home</string>
     <string name="title_notes">Notes</string>
     <string name="title_notebook">Notebook</string>
@@ -559,18 +562,18 @@
     <string name="calculation49_text1">Диаметр арматуры:</string>
     <string name="calculation49_text2">Длина стержня:</string>
     <string name="calculation49_text3">Количество стержней:</string>
-    <string name="calculation49_text4">Стоимостьза тонну:</string>
+    <string name="calculation49_text4">Стоимость за тонну:</string>
     <string name="calculation49_text5">Длина всей арматуры:</string>
-    <string name="calculation49_text6">Вес сиержня:</string>
+    <string name="calculation49_text6">Вес стержня:</string>
     <string name="calculation49_text7">Вес всей арматуры:</string>
-    <string name="calculation49_text8">Метровв тонне:</string>
+    <string name="calculation49_text8">Метров в тонне:</string>
     <string name="calculation49_text9">Стоимость стержня:</string>
     <string name="calculation49_text10">Стоимость всей арматуры:</string>
 
     <string name="calculation50_text1">Диаметр арматуры:</string>
     <string name="calculation50_text2">Длина стержня:</string>
     <string name="calculation50_text3">Вес всей арматуры:</string>
-    <string name="calculation50_text4">Стоимостьза тонну:</string>
+    <string name="calculation50_text4">Стоимость за тонну:</string>
     <string name="calculation50_text5">Длина всей арматуры:</string>
     <string name="calculation50_text6">Количество стержней:</string>
     <string name="calculation50_text7">Метров в тонне:</string>
@@ -582,7 +585,7 @@
     <string name="calculation51_text2">Длина стержня:</string>
     <string name="calculation51_text3">Количество стержней:</string>
     <string name="calculation51_text4">Стоимость за тонну:</string>
-    <string name="calculation51_text5">Маса 1м профиля:</string>
+    <string name="calculation51_text5">Масса 1м профиля:</string>
     <string name="calculation51_text6">Площадь поперечного сечения:</string>
     <string name="calculation51_text7">Длина всей арматуры:</string>
     <string name="calculation51_text8">Вес стержня:</string>
@@ -598,7 +601,7 @@
     <string name="calculation52_text4">Длина 1 штуки:</string>
     <string name="calculation52_text5">Вес 1 штуки:</string>
     <string name="calculation52_text6">Количество:</string>
-    <string name="calculation52_text7">Стоимость в руб:</string>
+    <string name="calculation52_text7">Стоимость:</string>
     <string name="calculation52_text8">Вес 1 штуки:</string>
     <string name="calculation52_text9">Длина 1 штуки:</string>
     <string name="calculation52_text10">Вес всего:</string>
@@ -608,13 +611,15 @@
 
     <string name="calculation53_text4">Длина 1 штуки:</string>
     <string name="calculation53_text6">Количество:</string>
-    <string name="calculation53_text7">Стоимость в руб:</string>
+    <string name="calculation53_text7">Стоимость:</string>
     <string name="calculation53_text8">Вес 1 штуки:</string>
     <string name="calculation53_text9">Длина 1 штуки:</string>
     <string name="calculation53_text10">Вес всего:</string>
     <string name="calculation53_text11">Длина общая:</string>
     <string name="calculation53_text12">Стоимость 1 штуки:</string>
     <string name="calculation53_text13">Стоимость всего:</string>
+    <string name="calculation74_text1">Площадь:</string>
+    <string name="calculation74_text2">Периметр:</string>
 
     <string name="calculation88_text1">Цельсий:</string>
     <string name="calculation88_text2">Фаренгейт:</string>

@@ -401,9 +401,9 @@ class CalculationsFragment52 : Fragment() {
         }
         result4.text="${Round.round(p)} руб"
         result5.text=if(input6.text.isNotEmpty())
-            "${Round.round(input6.text.toString().toDouble()*p)} руб"
+            "${Round.round(input6.text.toString().toDouble()*p)}"
         else
-            "${Round.round(p)} руб"
+            "${Round.round(p)}"
 
     }
     private fun setVisibilityGone(txt: TextView, input: EditText, spinner: Spinner)

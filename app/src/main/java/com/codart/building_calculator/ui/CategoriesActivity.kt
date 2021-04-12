@@ -27,6 +27,7 @@ class CategoriesActivity : AppCompatActivity() {
     lateinit var metals: ImageView
     lateinit var squares: ImageView
     lateinit var converters: ImageView
+    lateinit var popup: LinearLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,7 +41,7 @@ class CategoriesActivity : AppCompatActivity() {
         metals=findViewById(R.id.imgBottomMetals)
         squares=findViewById(R.id.imgBottomSquares_advice)
         converters=findViewById(R.id.imgBottomConverters)
-
+        popup= findViewById(R.id.popup_noads)
 
         imgMain.setOnClickListener {
             val intent = Intent(this, CategoriesActivity::class.java)
@@ -80,6 +81,13 @@ class CategoriesActivity : AppCompatActivity() {
         drawerLayout.addDrawerListener(toogle!!)
         toogle!!.syncState()
         val navController = Navigation.findNavController(this,R.id.fragment_categories)
+        setDrawer()
+    }
+    fun setDrawer(){
+        popup.setOnClickListener{
+            val i: Intent = Intent(this, SubscribeActivity::class.java)
+            startActivity(i)
+        }
     }
     fun getMyToolbar(): androidx.appcompat.widget.Toolbar? = toolbar
 

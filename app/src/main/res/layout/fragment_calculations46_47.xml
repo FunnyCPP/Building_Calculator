@@ -45,11 +45,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:layout_marginBottom="8dp"
                     android:background="@drawable/background_orange"
                     android:text="Посчитать"
                     android:textColor="@color/white"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/calculations46_input6"
                     app:layout_constraintStart_toEndOf="@+id/btn1_calculations46"
                     app:layout_constraintTop_toBottomOf="@+id/txt5_46" />
@@ -248,6 +246,18 @@
                     android:text="γ"
                     app:layout_constraintStart_toStartOf="@+id/txt4_calculations46"
                     app:layout_constraintTop_toBottomOf="@+id/txt5_calculations46" />
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/triangle"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btn1_calculations46" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

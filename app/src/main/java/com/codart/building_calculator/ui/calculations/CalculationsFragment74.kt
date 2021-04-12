@@ -135,7 +135,7 @@ class CalculationsFragment74 : Fragment() {
             setVisibilityGone(txt3,input3,spinner3)
             setVisibilityGone(txt4,input4,spinner4)
             setVisibilityGone(txt5,input5,spinner5)
-            setText(txt1,requireContext().resources.getString(R.string.sizeA))
+            setText(txt1,requireContext().resources.getString(R.string.sizeD))
         }
         setView()
         if(input1.text.isNotEmpty()) {
